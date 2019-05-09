@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63508a41-a0b5-432e-80ab-9cd23cc04296" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/call-methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/call-methods.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2122527198">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Signature-Algorithm" value="3" />
+          <entry key="Use-Sdk" value="5" />
+          <entry key="call-methods" value="1" />
+          <entry key="demo" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="3" />
+          <entry key="jpg" value="1" />
+          <entry key="md" value="1348" />
+          <entry key="png" value="5" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="6" />
+          <entry key="yml" value="150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="6" />
+          <entry key="JAVA" value="4" />
+          <entry key="Markdown" value="1356" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Use-Sdk" value="29" />
+          <entry key="md" value="2602" />
+          <entry key="txt" value="300" />
+          <entry key="yml" value="340" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="2631" />
+          <entry key="PLAIN_TEXT" value="300" />
+          <entry key="YAML" value="340" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Snap-Shop/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/Authentication.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="125">
+                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/call-methods.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>鉴权</find>
+      <find>增值税</find>
+      <find>平台为</find>
+      <find>chanchuang</find>
+      <find>parser</find>
+      <find>sig</find>
+      <find>content-type</find>
+      <find>系统返回参数</find>
+      <find>open</find>
+      <find>系统返回</find>
+      <find>ARGUMENT_NOT_SUPPORT</find>
+      <find>进入京东云控制台</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/API-Reference/Error-Code.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/API-Reference/Error-Code.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/API-Reference/Error-Code.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/API-Reference/Error-Code.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Automatic-Speech-Recognition/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Bank-Card-Number-Recognize/Operation-Guide/Use-Sdk" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Commentary-Extraction/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Anti-Spoofing/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Compare/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Detect-and-Analysis/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Search/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Food-Recognition/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/General-Image-OCR/Operation-Guide/Use-Sdk" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Human-Detection/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Identity-Card-Recognize/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Image-Antiporn-Recognize/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Snap-Shop/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Use-Sdk.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Bank-Card-Number-Recognize/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Commentary-Extraction/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Anti-Spoofing/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Compare/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Detect-and-Analysis/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Search/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Food-Recognition/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/General-Image-OCR/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Human-Detection/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Identity-Card-Recognize/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Image-Antiporn-Recognize/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Snap-Shop/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Authentication.md" />
+        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/call-methods.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-and-Machine-Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-and-Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Face-Compare" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-and-Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Face-Compare" type="462c0819:PsiDirectoryNode" />
+              <item name="API-Reference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-and-Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Face-Compare" type="462c0819:PsiDirectoryNode" />
+              <item name="Operation-Guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-and-Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Face-Compare" type="462c0819:PsiDirectoryNode" />
+              <item name="Pricing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CN-AM-Repo" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-and-Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Face-Detect-and-Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Lexical-Analysis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Lexical-Analysis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Operation-Guide" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Short-Text-Similarity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Short-Text-Similarity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Operation-Guide" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Snap-Shop" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Snap-Shop" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Operation-Guide" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Specific-Subject-Face-Recognition" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Specific-Subject-Face-Recognition" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Operation-Guide" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Vehicle-License-Recognize" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CN-AM-Repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI-and-Machine-Learning" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="-&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556508983377" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../openbilibili-go-common" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\aaa\CN-AM-Repo\image\AI-and-Machine-Learning" />
+      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Face-Search\API-Reference" />
+      <recent name="E:\workspace\aaa\CN-AM-Repo\image\AI-and-Machine-Learning\Face-Compare" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Automatic-Speech-Recognition\Operation-Guide" />
+      <recent name="E:\workspace\aaa\CN-AM-Repo\image\AI-and-Machine-Learning\lexer" />
+      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Value-Added-Tax-Invoice-Recognize" />
+      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Face-Search" />
+      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Face-Search\API-Reference" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63508a41-a0b5-432e-80ab-9cd23cc04296" name="Default Changelist" comment="" />
+      <created>1554276712189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554276712189</updated>
+      <workItem from="1554276713819" duration="13648000" />
+      <workItem from="1555392882538" duration="3362000" />
+      <workItem from="1555676065447" duration="1297000" />
+      <workItem from="1555765313987" duration="1341000" />
+      <workItem from="1555900476746" duration="40974000" />
+      <workItem from="1556433510056" duration="20931000" />
+    </task>
+    <task id="LOCAL-00001" summary="通用文字识别api文档完成">
+      <created>1554951317888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554951317888</updated>
+    </task>
+    <task id="LOCAL-00002" summary="身份证识别api文档完成">
+      <created>1554953118693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554953118693</updated>
+    </task>
+    <task id="LOCAL-00003" summary="身份证识别api文档完成">
+      <created>1554954375918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554954375918</updated>
+    </task>
+    <task id="LOCAL-00004" summary="银行卡识别已完成">
+      <created>1554954414063</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554954414063</updated>
+    </task>
+    <task id="LOCAL-00005" summary="行驶证识别已完成">
+      <created>1554956905267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554956905267</updated>
+    </task>
+    <task id="LOCAL-00006" summary="人脸对比已完成">
+      <created>1554957313088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554957313088</updated>
+    </task>
+    <task id="LOCAL-00007" summary="人脸活体检测已完成">
+      <created>1554957841033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554957841033</updated>
+    </task>
+    <task id="LOCAL-00008" summary="人脸识别与属性分析已完成">
+      <created>1554958272595</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554958272595</updated>
+    </task>
+    <task id="LOCAL-00009" summary="人体检测已完成">
+      <created>1554958668146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554958668146</updated>
+    </task>
+    <task id="LOCAL-00010" summary="特定任务识别已完成">
+      <created>1554959359359</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554959359359</updated>
+    </task>
+    <task id="LOCAL-00011" summary="智能鉴黄已完成">
+      <created>1554970521627</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554970521627</updated>
+    </task>
+    <task id="LOCAL-00012" summary="人脸搜索已完成">
+      <created>1554972690738</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554972690738</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增值税发票已经完成">
+      <created>1554975855183</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554975855183</updated>
+    </task>
+    <task id="LOCAL-00014" summary="删除多余的文件">
+      <created>1554976427568</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554976427568</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修改购买流程">
+      <created>1554978084504</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554978084504</updated>
+    </task>
+    <task id="LOCAL-00016" summary="没有明显的修改。">
+      <created>1554979125905</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554979125905</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修改公测说明">
+      <created>1555077767458</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555077767458</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改接口使用和系统错误码">
+      <created>1555300415585</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555300415585</updated>
+    </task>
+    <task id="LOCAL-00019" summary="增加句号，和修改少数url">
+      <created>1555314378742</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555314378742</updated>
+    </task>
+    <task id="LOCAL-00020" summary="修改了toc文件">
+      <created>1555321639687</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555321639688</updated>
+    </task>
+    <task id="LOCAL-00021" summary="修改了“计费概述”">
+      <created>1555678246817</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555678246817</updated>
+    </task>
+    <task id="LOCAL-00022" summary="修改了“计费概述”和系统返回参数">
+      <created>1556110512477</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556110512478</updated>
+    </task>
+    <task id="LOCAL-00023" summary="修改为“产品概述”">
+      <created>1556162390207</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1556162390209</updated>
+    </task>
+    <task id="LOCAL-00024" summary="修改为“去掉appkey和sign”">
+      <created>1556163908112</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1556163908113</updated>
+    </task>
+    <task id="LOCAL-00025" summary="增加“调用方法”">
+      <created>1556444788039</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1556444788039</updated>
+    </task>
+    <task id="LOCAL-00026" summary="增加header里的签名">
+      <created>1556456934739</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1556456934739</updated>
+    </task>
+    <task id="LOCAL-00027" summary="增加网关系统级错误码">
+      <created>1556506576485</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556506576485</updated>
+    </task>
+    <task id="LOCAL-00028" summary="增加sdk的“获取说明”和“调用方式”">
+      <created>1556508056191</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1556508056192</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修改AKSK">
+      <created>1556508925624</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1556508925624</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="130845000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21447721" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49932975" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4966488" weight="0.22434017" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.522118" side_tool="true" visible="true" weight="0.22434017" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.47788203" weight="0.24926686" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49932975" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49865952" visible="true" weight="0.20674486" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="行驶证识别已完成" />
+    <MESSAGE value="人脸对比已完成" />
+    <MESSAGE value="人脸活体检测已完成" />
+    <MESSAGE value="人脸识别与属性分析已完成" />
+    <MESSAGE value="人体检测已完成" />
+    <MESSAGE value="特定任务识别已完成" />
+    <MESSAGE value="智能鉴黄已完成" />
+    <MESSAGE value="人脸搜索已完成" />
+    <MESSAGE value="增值税发票已经完成" />
+    <MESSAGE value="删除多余的文件" />
+    <MESSAGE value="修改购买流程" />
+    <MESSAGE value="没有明显的修改。" />
+    <MESSAGE value="修改公测说明" />
+    <MESSAGE value="修改接口使用和系统错误码" />
+    <MESSAGE value="增加句号，和修改少数url" />
+    <MESSAGE value="修改了toc文件" />
+    <MESSAGE value="修改了“计费概述”" />
+    <MESSAGE value="修改了“计费概述”和系统返回参数" />
+    <MESSAGE value="修改为“产品概述”" />
+    <MESSAGE value="修改为“去掉appkey和sign”" />
+    <MESSAGE value="增加“调用方法”" />
+    <MESSAGE value="增加header里的签名" />
+    <MESSAGE value="增加网关系统级错误码" />
+    <MESSAGE value="增加sdk的“获取说明”和“调用方式”" />
+    <MESSAGE value="修改AKSK" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改AKSK" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Image-Antiporn-Recognize/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Snap-Shop/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/应用场景1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/AI-and-Machine-Learning/AK管理.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Automatic-Speech-Recognition/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="1" selection-start-column="1" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Bank-Card-Number-Recognize/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Commentary-Extraction/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Anti-Spoofing/Operation-Guide/Signature-Algorithm.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Anti-Spoofing/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Compare/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" lean-forward="true" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Detect-and-Analysis/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Search/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Food-Recognition/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/General-Image-OCR/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Human-Detection/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Identity-Card-Recognize/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Image-Antiporn-Recognize/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/Operation-Guide/Use-Sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Snap-Shop/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/Authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/call-methods.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CN-AM-Repo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

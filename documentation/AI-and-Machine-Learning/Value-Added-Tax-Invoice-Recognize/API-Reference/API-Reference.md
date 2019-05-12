@@ -4,7 +4,7 @@
 
 ### 1. 功能描述  
 
-  基于业界领先的深度学习技术，利用光学字符识别技术，将图片上的文字转换为可编辑的文本，为您提供场景丰富的整图文字检测和识别服务。
+基于业界领先的深度学习技术，利用光学字符识别技术，将图片上的文字转换为可编辑的文本，为您提供场景丰富的整图文字检测和识别服务。
   
 ### 2. 接口数据要求：  
 > 1. 图片格式：jpg(jpeg)、png、jijf
@@ -27,7 +27,7 @@ https://aiapi.jdcloud.com/jdai/ocr_invoice
 https  `post`aiapi.jdcloud.com/jdai/ocr_invoice
 ### 3. 请求参数    
 
-#### （2）header请求参数
+#### （1）header请求参数
 业务请求参数
 
 名称 | 类型 | 必填 | 示例值 | 描述
@@ -35,7 +35,7 @@ https  `post`aiapi.jdcloud.com/jdai/ocr_invoice
 Content-Type | String | 是 | application/octet-stream | 标准编码格式
 Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
-#### （3）body请求参数
+#### （2）body请求参数
 业务请求参数
 
 名称 | 类型 | 必填 | 示例值 | 描述
@@ -51,10 +51,10 @@ Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code | string | 1001 | 参见下方错误码-系统级错误码
+code | string | 1001 | 参见[错误码](Error-Code.md)-系统级错误码
 charge | boolean | false 或 true | false：不扣费， true：扣费
 remain | long | 1305 | 按天计算剩余调用次数
-msg | string | 查询成功 | 参见下方错误码-系统级错误码
+msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
 result | object | {...} | 查询结果
 
 #### （2）业务返回参数
@@ -62,8 +62,8 @@ result参数信息
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code|	string|	0|	参照四、错误码-业务错误码
-message|	string|	success|	状态码描述
+code|	string|	0|	参见[错误码](Error-Code.md)-业务级错误码
+message|	string|	success|	状态码描述，参见[错误码](Error-Code.md)-业务级错误码
 request_id|	string|	cb4f53b8c60e9589445cc4cd895cf5b6|	为方便定位问题的32位uuid
 result|	json|	{...}|	返回识别结果
 

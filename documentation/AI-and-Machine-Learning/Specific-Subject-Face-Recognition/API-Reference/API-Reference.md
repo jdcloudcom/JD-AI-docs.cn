@@ -6,7 +6,7 @@
 ### 2. 能力说明：  
   目前可支持国内外政要人物，也可以支持明星演员，运动员，名人等公众人物或进行自定义人物审核库，根据自己的业务进行配置人物的审核策略。
 ### 3. 接口数据要求：  
-> 1. 图片格式：支持jpeg(jpg)及png图片
+> 1. 图片格式：支持jpeg/jpg、png
 > 2. 图片像素：最小 48 \* 48 像素，最大 4096 \* 4096 像素
 > 3. 图片大小：小于2MB
 
@@ -19,9 +19,11 @@
 
 ## 二、请求说明
 ### 1. 接口地址 ：
+
 ```
-http://192.168.0.162:8080/PoliticiansRecognition
+http://aiapi.jdcloud.com/jdai/PoliticiansRecognition
 ```
+
 ### 2. 请求方式：  
 https  `post`aiapi.jdcloud.com/jdai/PoliticiansRecognition
 ### 3. 请求参数    
@@ -50,10 +52,10 @@ Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code | string | 1000 | 参见下方错误码-系统级错误码
+code | string | 1000 | 参见[错误码](Error-Code.md)-系统级错误码
 charge | boolean | false 或 true | false：不扣费， true：扣费
 remain | long | 1305 | 按天计算剩余调用次数
-msg | string | 查询成功 | 参见下方错误码-系统级错误码
+msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
 result | object | {...} | 查询结果
 
 #### （2）业务返回参数
@@ -62,13 +64,18 @@ result参数信息
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-status|	int|	0|	参照四、错误码-业务错误码
-message|	string|	"Success."|	参照四、错误码-业务错误信息
+status|	int|	0|	参见[错误码](Error-Code.md)-业务级错误码
+message|	string|	"Success."|	参见[错误码](Error-Code.md)-业务级错误码
 request_id| string| "hJe+Bn3QhgfE2BKQ/HsD5g=="| 请求id
 name|	string|	"金正恩"|	检出的人物姓名，若为空值，则未检出
 
 ### 2、返回示例    
-
-{"status":0,"message":"Success.","request_id":"hJe+Bn3QhgfE2BKQ/HsD5g==","name":"金正恩"}
-
+```
+    {
+        "status": 0,
+        "message": "Success.",
+        "request_id": "hJe+Bn3QhgfE2BKQ/HsD5g==",
+        "name": "金正恩"
+    }
+```
 

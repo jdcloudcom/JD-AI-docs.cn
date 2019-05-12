@@ -1,5 +1,7 @@
 # 通用文字识别
 
+
+
 ## 一、接口描述 
 
 ### 1. 功能描述  
@@ -33,6 +35,7 @@ https  `post`aiapi.jdcloud.com/jdai/ocr_universal
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
+Content-Type | String | 是 | image/jpg| 标准编码格式
 Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 #### （2）body请求参数
@@ -51,10 +54,10 @@ Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code | string | 1001 | 参见下方错误码-系统级错误码
+code | string | 1001 | 参见[错误码](Error-Code.md)-系统级错误码
 charge | boolean | false 或 true | false：不扣费， true：扣费
 remain | long | 1305 | 按天计算剩余调用次数
-msg | string | 查询成功 | 参见下方错误码-系统级错误码
+msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
 result | object | {...} | 查询结果
 
 #### （2）业务返回参数
@@ -62,9 +65,9 @@ result参数信息
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code|	int|	0|	参照四、错误码-业务错误码
-message|	string|	success|	状态码描述
-request_id|	string|	cb4f53b8c60e9589445cc4cd895cf5b6|	为方便定位问题的32位uuid
+code|	int|	0|	参见[错误码](Error-Code.md)-业务级错误码
+message|	string|	success|状态码描述，参见[错误码](Error-Code.md)-业务级错误码
+request_id|	string|	cb4f53b8c60e9589445cc4cd895cf5b6|为方便定位问题的32位uuid
 resultData|	object|	{...}|	返回识别结果
 
 resultData参数信息

@@ -37,28 +37,36 @@ Content-Type | String | 是 | text/plain | 标准编码格式
 Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 #### （2）body请求参数
-业务请求参数 
+业务请求参数
 
 >首次请求参数
+```
+imageBase64=xxx&channel_id=test&topK=50&multi_bboxes=true&skip_detect=true
+```
+其中，各参数定义如下
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-imgBase64 | String | 是 | imgBase64=/9j/4AAQSk...（页面展示原因，未显示全部base64编码） | 图片base64编码
+imgBase64 | String | 是 | imgBase64=/9j/4AAQSk... | 图片base64编码
 channel_id | String | 是 | channel_id=test | 业务方识别码
 topK | int | 否 | topK=50 | 返回商品列表个数（默认为50）
 multi_bboxes | bool | 否 | multi_bboxes=true | 是否返回多个检测框商品
 
 >用户触发请求参数(测试接口暂不提供此功能)
+```
+imageBase64=xxx&channel_id=test&topK=50&action_type=0&main_category_list=5|1&main_category_id=2&main_body_rectangle=10,10|700,900
+```
+其中，各参数定义如下
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|------|------|------|------
-imgBase64 | String | 是 | imgBase64=/9j/4AAQSk...（页面展示原因，未显示全部base64编码） | 图片base64编码
+imgBase64 | String | 是 | imgBase64=/9j/4AAQSk...| 图片base64编码
 channel_id | String | 是 | channel_id=xxxx | 业务方识别码
 topK | int | 否 | topK=50 | 返回商品列表个数（默认为50）
 action_type | int | 是 | action_type=0 | 输入可选0或者1, 操作选择 0:切换类目 1:重新框选
 main_category_list | String | action_type=0情况下必填 | main_category_list=<br/>5&#124;1&#124;3&#124;14&#124;4&#124;2 | 类目相似度排序（由首次请求返回结果获得）
 main_category_id | int | action_type=0情况下必填 | main_category_id=2 | 待切换到类目的id
-main_body_rectangle | String | action_type=1情况下必填 | main_body_rectangle=<br/>10,10&#124;700,900 | 重新框选区域位置,结构为:左上角坐标x值(left),左上角坐标y值(top)&#124;右下角坐标x值(right),右下角坐标y值(bottom)
+main_body_rectangle | String | action_type=1情况下必填 | main_body_rectangle=<br/>10,10&#124;700,900 | 重新框选区域位置,结构为:<br/>左上角坐标x值(left),<br/>左上角坐标y值(top)&#124;<br/>右下角坐标x值(right),<br/>右下角坐标y值(bottom)
 
 
 注意:1.若无action_type字段，用户触发请求无效; 2.channel_id=test 每日最大调用量为500次。
@@ -72,10 +80,10 @@ main_body_rectangle | String | action_type=1情况下必填 | main_body_rectangl
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code | string | 1000 | 参见下方错误码-系统级错误码
+code | string | 1000 | 参见[错误码](Error-Code.md)-系统级错误码
 charge | boolean | false 或 true | false：不扣费， true：扣费
 remain | long | 1305 | 按天计算剩余调用次数
-msg | string | 查询成功 | 参见下方错误码-系统级错误码
+msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
 result | object | {...} | 查询结果
 
 #### （2）业务返回参数
@@ -83,8 +91,8 @@ result参数信息
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-status| int | 0 | 参照四、错误码-业务错误码
-message | string | "Interface Succeed!" | 参照四、错误码-业务错误信息
+status| int | 0 | 参见[错误码](Error-Code.md)-业务级错误码
+message | string | "Interface Succeed!" | 参见[错误码](Error-Code.md)-业务级错误码
 channel_id | string | "test" | 业务方识别码（与输入相同）
 query_id | string | "bd65b0d0541f4b2c729a08e7bf123ff7" | 用户请求query唯一标识字段
 main_category_list | string | 5&#124;1&#124;3&#124;14&#124;4&#124;2&#124;0 | 类目预测排序，根据分类置信度排序
@@ -127,11 +135,8 @@ skuId | unsigned long | 30149050873 | 商品sku ID
 skuName | string | "鞋柜简约现代经济型鞋门厅柜<br/>组装 北欧玄关柜柚木色两门高组装" | 商品名称
 skuPrice | string | "123.00" | 商品价格
 wareLabel | string | "自营" | 有自营/非自营/京东物流/京东精选 四种商品销售渠道可供选择
- 
-
 
 ### 2、返回示例    
-
 
 ```
 {

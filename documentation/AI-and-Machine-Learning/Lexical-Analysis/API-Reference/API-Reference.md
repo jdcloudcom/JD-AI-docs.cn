@@ -25,65 +25,23 @@ https://aiapi.jdcloud.com/jdai/lexer
 https `post` aiapi.jdcloud.com/jdai/lexer
 
 ### 3. 请求参数  
- 
-
 
 #### （1）header请求参数
 业务请求参数
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>必填</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>Authorization</td>
-      <td>string</td>
-      <td>是</td>
-      <td>JDCLOUD2-HMAC-SHA256Credential=access...</td>
-      <td>签名</td>
-   </tr>
-</table>
+
+名称 | 类型 | 必填 | 示例值 | 描述
+------|------|-----|-----|-----
+Content-Type | String | 是 | application/json| 表示请求JSON格式的文本信息
+Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 #### （2）body请求参数
 业务请求参数
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>必填</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>appId</td>
-      <td>string</td>
-      <td>否</td>
-      <td>0</td>
-      <td>应用id，同一调用方可以创建多个应用。appId不填或者为0时表示使用通用的分词模型。</td>
-   </tr>
-   <tr>
-      <td>text</td>
-      <td>string</td>
-      <td>是</td>
-      <td>克林顿访问中国</td>
-      <td>输入文本</td>
-   </tr>
-   <tr>
-      <td>type</td>
-      <td>int</td>
-      <td>是</td>
-      <td>0</td>
-      <td>选择所需的词法分析的结果，包括"分词"、"词性标注"和"命名实体识别”一个或多个的组合。<br>
-      0: 提供分词，词性标注以及命名实体识别的结果<br/>
-      1: 提供分词的结果<br/>
-      2: 提供分词和词性标注的结果<br/>
-      3: 提供分词和命名实体的结果<br/>
-      如输入其它数值，默认按0情况处理</td>   
-   </tr>
-</table>
+
+名称 | 类型 | 必填 | 示例值 | 描述
+------|------|-----|-----|-----
+appId | string | 否 | 0 | 应用id，同一调用方可以创建多个应用。appId不填或者为0时表示使用通用的分词模型。
+text | string | 是 | 克林顿访问中国 | 输入文本
+type | int | 是 | 0 | 选择所需的词法分析的结果，包括"分词"、"词性标注"和"命名实体识别”一个或多个的组合。<br>0: 提供分词，词性标注以及命名实体识别的结果<br/>1: 提供分词的结果<br/>2: 提供分词和词性标注的结果<br/>3: 提供分词和命名实体的结果<br/>如输入其它数值，默认按0情况处理
 
 ### 4、请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
@@ -91,138 +49,41 @@ https `post` aiapi.jdcloud.com/jdai/lexer
 
 ## 三、返回说明
 ### 1、返回参数
-
-
    
 #### （1）公共返回参数
 
+名称 | 类型 | 示例值 | 描述
+------|------|-----|-----
+code | string | 1000 | 参见[错误码](Error-Code.md)-系统级错误码
+charge | boolean | false 或 true | false：不扣费， true：扣费
+remain | long | 1305 | 按天计算剩余调用次数
+msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
+result | object | {...} | 查询结果
 
-
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>code</td>
-      <td>string</td>
-      <td>1000</td>
-      <td>参见下方错误码-系统级错误码</td>
-   </tr>
-      <tr>
-      <td>charge</td>
-      <td>boolean</td>
-      <td>false 或 true</td>
-      <td>false：不扣费， true：扣费</td>
-   </tr>
-      <tr>
-      <td>remain</td>
-      <td>long</td>
-      <td>1305</td>
-      <td>按天计算剩余调用次数</td>
-   </tr>
-      </tr>
-      <tr>
-      <td>msg</td>
-      <td>string</td>
-      <td>查询成功</td>
-      <td>参见下方错误码-系统级错误码数</td>
-   </tr>
-      </tr>
-      <tr>
-      <td>result</td>
-      <td>object</td>
-      <td>{...}</td>
-      <td>查询结果</td>
-   </tr>
-</table>
 
 #### （2）业务返回参数
 
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>status</td>
-      <td>int</td>
-      <td>0</td>
-      <td>参照四、错误码-业务错误码</td>
-   </tr>
-      <tr>
-      <td>message</td>
-      <td>string</td>
-      <td>ok</td>
-      <td>参照四、错误码-业务错误码</td>
-   </tr>
-      <tr>
-      <td>request_id</td>
-      <td>string</td>
-      <td>5893465d31284468a8014de6ee430f8e</td>
-      <td>便于双方定位问题</td>
-   </tr>
-   <tr>
-      <td>text</td>
-      <td>string</td>
-      <td>克林顿访问中国</td>
-      <td>输入文本</td>
-   </tr>
-   <tr>
-      <td>tokenizedText</td>
-      <td>list</td>
-      <td> [{"offset": 0,"pos": "NR","length": 3,"ner": "PERSON","word": "克林顿"},...] </td>
-      <td>词法分析结果，详情下面tokenizedText字段说明</td>
-   </tr>
-</table>
+名称 | 类型 | 示例值 | 描述
+------|------|-----|-----
+status | int | 0 | 参见[错误码](Error-Code.md)-业务级错误码
+message | string | ok | 参见[错误码](Error-Code.md)-业务级错误码
+request_id | string | 5893465d31284468a8014de6ee430f8e | 便于双方定位问题
+text | string | 克林顿访问中国 | 输入文本
+tokenizedText | list |  [{"offset": 0,"pos": "NR","length": 3,"ner": "PERSON","word": "克林顿"},...]  | 词法分析结果，详情下面tokenizedText字段说明
+
 
 #### tokenizedText字段说明
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>word</td>
-      <td>string</td>
-      <td>克林顿</td>
-      <td>分词</td>
-   </tr>
-   <tr>
-      <td>pos</td>
-      <td>string</td>
-      <td>NR</td>
-      <td>词性</td>
-   </tr>
-   <tr>
-      <td>ner</td>
-      <td>string</td>
-      <td>PERSON</td>
-      <td>命名实体识别</td>
-   </tr>
-   <tr>
-      <td>offset</td>
-      <td>int</td>
-      <td>0</td>
-      <td>距离起始位置偏移</td>
-   </tr>
-   <tr>
-      <td>length</td>
-      <td>int</td>
-      <td>3</td>
-      <td>分词长度</td>
-   </tr>
-</table>
 
- 
+名称 | 类型 | 示例值 | 描述
+------|------|-----|-----
+word | string | 克林顿 | 分词
+pos | string | NR | 词性
+ner | string | PERSON | 命名实体识别
+offset | int | 0 | 距离起始位置偏移
+length | int | 3 | 分词长度
+
+
 ### 2、返回示例    
-
 
 ```
 {

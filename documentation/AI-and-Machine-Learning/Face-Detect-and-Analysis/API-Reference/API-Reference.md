@@ -1,7 +1,5 @@
 # 人脸检测与属性分析
 
-----------
-
 ## 一、接口描述 
 
 ### 1.功能描述
@@ -36,62 +34,30 @@ https `post` aiapi.jdcloud.com/jdai/face_detect_attr
  
 #### （1）header请求参数
 业务请求参数
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>必填</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>Authorization</td>
-      <td>string</td>
-      <td>是</td>
-      <td>JDCLOUD2-HMAC-SHA256Credential=access...</td>
-      <td>签名</td>
-   </tr>
-</table>
 
-#### （2）body请求参数
+名称 | 类型 | 必填 | 示例值 | 描述
+------|-----|-----|-----|-----
+Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
+
+#### （2）query请求参数
 业务请求参数
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>必填</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>imageBase64</td>
-      <td>string</td>
-      <td>是</td>
-      <td>图像Base64编码值，由于过长，不给出示例</td>
-      <td>图片Base64编码</td>
-   </tr>
-   <tr>
-      <td>return_landmark</td>
-      <td>int</td>
-      <td>否</td>
-      <td>0</td>
-      <td>是否返回关键点，0为不返回，1为返回25个关键点，2为返回106个关键点，默认为0</td>
-   </tr>
-   <tr>
-      <td>return_attr</td>
-      <td>int</td>
-      <td>否</td>
-      <td>0</td>
-      <td>是否返回人脸属性，0为不返回，1为返回，默认为0</td>
-   </tr>
-   <tr>
-      <td>face_detect_num</td>
-      <td>int</td>
-      <td>否</td>
-      <td>5</td>
-      <td>最多处理人脸的数目，默认值为0，检测图片中所有的人脸，并返回相应的属性值, 人脸数目不超过100</td>
-   </tr>
-</table>
+
+名称 | 类型 | 必填 | 示例值 | 描述
+------|-----|-----|-----|-----
+return_landmark | int | 否 | 0 | 是否返回关键点，0为不返回，1为返回25个关键点，2为返回106个关键点，默认为0
+return_attr | int | 否 | 0 | 是否返回人脸属性，0为不返回，1为返回，默认为0
+face_detect_num | int | 否 | 5 | 最多处理人脸的数目，默认值为0，检测图片中所有的人脸，并返回相应的属性值, 人脸数目不超过100
+
+#### （3）body请求参数
+业务请求参数
+```
+imageBase64=xxxx
+```
+其中参数定义
+
+名称 | 类型 | 必填 | 示例值 | 描述
+------|-----|-----|-----|-----
+imageBase64 | string | 是 | 图像Base64编码值，由于过长，不给出示例 | 图片Base64编码
 
 ### 4、请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
@@ -101,152 +67,31 @@ https `post` aiapi.jdcloud.com/jdai/face_detect_attr
 ### 1、返回参数
 #### （1）公共返回参数
 
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>code</td>
-      <td>string</td>
-      <td>1000</td>
-      <td>参见下方错误码-系统级错误码</td>
-   </tr>
-      <tr>
-      <td>charge</td>
-      <td>boolean</td>
-      <td>false 或 true</td>
-      <td>false：不扣费， true：扣费</td>
-   </tr>
-      <tr>
-      <td>remain</td>
-      <td>long</td>
-      <td>1305</td>
-      <td>按天计算剩余调用次数</td>
-   </tr>
-      </tr>
-      <tr>
-      <td>msg</td>
-      <td>string</td>
-      <td>查询成功</td>
-      <td>参见下方错误码-系统级错误码数</td>
-   </tr>
-      </tr>
-      <tr>
-      <td>result</td>
-      <td>object</td>
-      <td>{...}</td>
-      <td>查询结果</td>
-   </tr>
-</table>
+名称 | 类型 | 示例值 | 描述
+------|-----|-----|-----
+code | string | 1000 | 参见[错误码](Error-Code.md)-系统级错误码
+charge | boolean | false 或 true | false：不扣费， true：扣费
+remain | long | 1305 | 按天计算剩余调用次数
+msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
+result | object | {...} | 查询结果
 
 #### （2）业务返回参数
 
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>status</td>
-      <td>int</td>
-      <td>0</td>
-      <td>返回结果，0表示成功，非0为对应错误号</td>
-   </tr>
-   <tr>
-      <td>message</td>
-      <td>string</td>
-      <td>Success</td>
-      <td>错误信息</td>
-   </tr>
-   <tr>
-      <td>faceNum</td>
-      <td>int</td>
-      <td>2</td>
-      <td>被检测出人脸的个数</td>
-   </tr>
-   <tr>
-      <td>faces</td>
-      <td>array</td>
-      <td>[{...},{...}]</td>
-      <td>被检测出的人脸数组</td>
-   </tr>
-</table>
+名称 | 类型 | 示例值 | 描述
+------|-----|-----|-----
+status | int | 0 | 返回结果，0表示成功；非0为对应错误号，参见[错误码](Error-Code.md)-业务级错误码
+message | string | Success | 错误信息，参见[错误码](Error-Code.md)-业务级错误码
+faceNum | int | 2 | 被检测出人脸的个数
+faces | array | [{...},{...}] | 被检测出的人脸数组
+
  
 **faces数组中单个元素的结构：**
 
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>faceDetectionResult</td>
-      <td>object</td>
-      <td>"faceDetectionResult":
-                {
-                    "conf":0.9979284,
-                    "height":248.6062,
-                    "left":130.61546,
-                    "pitch":-13.489692,
-                    "points":
-                    [
-                        {"id":"1","x":182.95001,"y":336.23602},
-                        {"id":"2","x":280.43008,"y":317.094},
-                        ....
-                        {"id":"25","x":261.8835,"y":481.9718}
-                    ],
-                    "roll":-10.862732,
-                    "top":217.24722,
-                    "width":206.0797,
-                    "yaw":-2.1396933
-                }</td>
-      <td>人脸识别矩形框的位置，包括以下属性值：<br/>
-      left：矩形框左上角像素点的横坐标<br/>
-      top：矩形框左上角像素点的纵坐标<br/>
-      width：矩形框的宽度<br/>
-      height：矩形框的高度</td>
-      conf: 人脸置信度 </td>
-      roll: 人脸歪头的角度 </td>
-      yaw: 人脸左右摇头的角度 </td>
-      pitch: 人脸上下点头的角度 </td>
-      points: 人脸关键点 </td>
-   </tr>
-   <tr>
-      <td>faceAttribute</td>
-      <td>object</td>
-      <td>"faceAttribute":
-                {
-                    "age":13,
-                    "beard":0,
-                    "beauty":69.65329,
-                    "emotion":3,
-                    "eyeglasses":0,
-                    "gender":1,
-                    "mask":0,
-                    "race":0,
-                    "smile":21.505215,
-                    "sunglasses":0
-                }</td>
-      <td>人脸识别的自然属性值，包括以下字段，且均为string：<br>
-      age: 年龄<br/>
-      gender: 性别, 0为女性，1为男性<br/>
-      race: 种族, 0白种人 1黑种人 2黄种人<br/>
-      emotion: 0为惊讶，3为高兴，4为悲伤，5为生气，6为平静<br/>
-      beard: 是否有胡子,0否，1是<br/>
-      mask: 是否带口罩，0否，1是<br/>
-      eyeglasses: 是否戴眼镜，0否，1是<br/>
-      sunglasses: 是否带墨镜，0否，1是<br/>
-      smile：微笑<br/>
-      beauty：颜值</td>
-   </tr>
-</table>
+
+名称 | 类型 | 示例值 | 描述
+------|-----|-----|-----
+faceDetectionResult | object | "faceDetectionResult":{"conf":0.9979284,<br/>"height":248.6062,<br/>"left":130.61546,<br/>"pitch":-13.489692,<br/>"points":[<br/>{"id":"1","x":182.95001,"y":336.23602},<br/>{"id":"2","x":280.43008,"y":317.094},....<br/>{"id":"25","x":261.8835,"y":481.9718}],<br/>"roll":-10.862732,<br/>"top":217.24722,<br/>"width":206.0797,<br/>"yaw":-2.1396933} | 人脸识别矩形框的位置，包括以下属性值：<br/>left：矩形框左上角像素点的横坐标<br/>top：矩形框左上角像素点的纵坐标<br/>width：矩形框的宽度<br/>height：矩形框的高度<br/>conf: 人脸置信度 <br/>roll: 人脸歪头的角度 <br/>yaw: 人脸左右摇头的角度 <br/>pitch: 人脸上下点头的角度<br/>points: 人脸关键点 
+faceAttribute | object | "faceAttribute":{<br/>"age":13,<br/>"beard":0,<br/>"beauty":69.65329,<br/>"emotion":3,<br/>"eyeglasses":0,<br/>"gender":1,<br/>"mask":0,<br/>"race":0,<br/>"smile":21.505215,<br/>"sunglasses":0} | 人脸识别的自然属性值，包括以下字段，且均为string：<br>age: 年龄<br/>gender: 性别, 0为女性，1为男性<br/>race: 种族, 0白种人 1黑种人 2黄种人<br/>emotion: 0为惊讶，3为高兴，4为悲伤，5为生气，6为平静<br/>beard: 是否有胡子,0否，1是<br/>mask: 是否带口罩，0否，1是<br/>eyeglasses: 是否戴眼镜，0否，1是<br/>sunglasses: 是否带墨镜，0否，1是<br/>smile：微笑<br/>beauty：颜值
 
 ### 2、返回示例
 

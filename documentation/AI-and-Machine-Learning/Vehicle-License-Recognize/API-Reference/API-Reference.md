@@ -4,7 +4,7 @@
 
 ### 1. 功能描述  
 
-  基于业界领先的深度学习技术，识别机动车行驶证正页的关键字段识别，包括号牌号码、车辆类型、所有人、住址、使用性质、品牌型号、车辆识别代号、发动机号码、注册日期、发证日期等关键字段，准确可靠！
+基于业界领先的深度学习技术，识别机动车行驶证正页的关键字段识别，包括号牌号码、车辆类型、所有人、住址、使用性质、品牌型号、车辆识别代号、发动机号码、注册日期、发证日期等关键字段，准确可靠！
   
 ### 2. 接口数据要求：  
 > 1. 图片格式：jpg、jpeg、png、jfif、bmp
@@ -50,10 +50,10 @@ Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code | string | 1001 | 参见下方错误码-系统级错误码
+code | string | 1001 | 参见[错误码](Error-Code.md)-系统级错误码
 charge | boolean | false 或 true | false：不扣费， true：扣费
 remain | long | 1305 | 按天计算剩余调用次数
-msg | string | 查询成功 | 参见下方错误码-系统级错误码
+msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
 result | object | {...} | 查询结果
 
 #### （2）业务返回参数
@@ -61,8 +61,8 @@ result参数信息
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code|	int|	0|	参照四、错误码-业务错误码
-message|	string|	success|	状态码描述
+code|	int|	0|	参见[错误码](Error-Code.md)-业务级错误码
+message|	string|	success|	状态码描述，参见[错误码](Error-Code.md)-业务级错误码
 request_id|	string|	cb4f53b8c60e9589445cc4cd895cf5b6|	为方便定位问题的32位uuid
 resultData|	object|	{...}|	返回识别结果
 

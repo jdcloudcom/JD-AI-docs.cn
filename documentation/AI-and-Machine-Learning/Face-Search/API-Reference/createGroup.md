@@ -1,6 +1,4 @@
-# 创建分组
-
-----------
+# 创建人脸分组
 
 ## 一、接口描述 
 
@@ -31,48 +29,20 @@ https `post` aiapi.jdcloud.com/jdai/faceGroupCreate
  
 #### （1）header请求参数
 业务请求参数
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>必填</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>Authorization</td>
-      <td>string</td>
-      <td>是</td>
-      <td>JDCLOUD2-HMAC-SHA256Credential=access...</td>
-      <td>签名</td>
-   </tr>
-</table>
 
-#### （2）body请求参数
+名称 | 类型 | 必填 | 示例值 | 描述 
+------|-----|-----|-----|-----
+Authorization  | string  | 是  | JDCLOUD2-HMAC-SHA256Credential=access...  | 签名
+
+
+#### （2）query请求参数
 业务请求参数
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>必填</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>groupName</td>
-      <td>string</td>
-      <td>是</td>
-      <td>test</td>
-      <td>分组名称, 不支持中文以及特殊字符</td>
-   </tr>
-   <tr>
-      <td>groupInfo</td>
-      <td>string</td>
-      <td>否</td>
-      <td>test test</td>
-      <td>分组描述，支持中文和特殊字符</td>
-   </tr>
-</table>
+
+名称 | 类型 | 必填 | 示例值 | 描述 
+------|-----|-----|-----|-----
+groupName  | string  | 是  | test  | 分组名称, 不支持中文以及特殊字符
+groupInfo  | string  | 否  | test test  | 分组描述，支持中文和特殊字符
+
 
 ### 4、请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
@@ -80,72 +50,24 @@ https `post` aiapi.jdcloud.com/jdai/faceGroupCreate
 ## 返回说明
 
 ### 1、返回参数
+
 #### （1）公共返回参数
 
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>code</td>
-      <td>string</td>
-      <td>1000</td>
-      <td>参见下方错误码-系统级错误码</td>
-   </tr>
-      <tr>
-      <td>charge</td>
-      <td>boolean</td>
-      <td>false 或 true</td>
-      <td>false：不扣费， true：扣费</td>
-   </tr>
-      <tr>
-      <td>remain</td>
-      <td>long</td>
-      <td>1305</td>
-      <td>按天计算剩余调用次数</td>
-   </tr>
-      </tr>
-      <tr>
-      <td>msg</td>
-      <td>string</td>
-      <td>查询成功</td>
-      <td>参见下方错误码-系统级错误码数</td>
-   </tr>
-      </tr>
-      <tr>
-      <td>result</td>
-      <td>object</td>
-      <td>{...}</td>
-      <td>查询结果</td>
-   </tr>
-</table>
+名称 | 类型 | 示例值 | 描述
+------|-----|-----|----- 
+code  | string  | 1000  | 参见[错误码](Error-Code.md)-系统级错误码
+charge  | boolean  | false 或 true  | false：不扣费， true：扣费
+remain  | long  | 1305  | 按天计算剩余调用次数
+msg  | string  | 查询成功  | 参见[错误码](Error-Code.md)-系统级错误码
+result  | object  | {...}  | 查询结果
+
 
 #### （2）业务返回参数
 
-<table>
-   <tr>
-      <th>名称</th>
-      <th>类型</th>
-      <th>示例值</th>
-      <th>描述</th>
-   </tr>
-   <tr>
-      <td>status</td>
-      <td>int</td>
-      <td>0</td>
-      <td>返回结果，0表示成功，非0为对应错误号</td>
-   </tr>
-   <tr>
-      <td>message</td>
-      <td>string</td>
-      <td>Success</td>
-      <td>若status为0，返回分组id，否则返回错误信息</td>
-   </tr>
-</table>
- 
+名称 | 类型 | 示例值 | 描述 
+------|-----|-----|-----
+status  | int  | 0  | 返回结果，0表示成功；非0为对应错误号，参见[错误码](Error-Code.md)-业务级错误码
+message  | string  | Success  | 若status为0，返回分组id，否则返回错误信息，参见[错误码](Error-Code.md)-业务级错误码
 
 
 ### 2、返回示例

@@ -119,33 +119,23 @@ https://aiapi.jdcloud.com/jdai/sentimentV2
 https `post` aiapi.jdcloud.com/jdai/sentimentV2
 
 ### 3. 请求参数  
- 
-#### （1）query请求参数  
-公共请求参数
 
-名称 | 类型 | 必填 | 示例值 | 描述
-------|-----|-----|-----|-----
-appkey | string | 是 | 80d2b762ecb86593f9668526920f46c | 您的appkey，可在买家中心控制台中获
-timestamp | long | 是 | 1541491668060 | 请求的时间戳，精确到毫秒，timestamp有效期5分钟
-sign | string | 是 | 2e148773a0337a8f2200ba90d445f083 | 签名，根据规则MD5(sectetkey,timestamp)
-
-
-#### （2）header请求参数
+#### （1）header请求参数
 业务请求参数
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
 Content-Type | string | 是 | application/json | 表示请求JSON格式的文本信息
+Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 
-#### （3）body请求参数
+#### （2）body请求参数
 业务请求参数
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-type | int | 是 | 3 | 情感模型的类型：<br>      positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
+type | int | 是 | 3 | 情感模型的类型：<br>  positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
 text | string | 是 | 周三了，怎么还没有到货啊 | 输入文本
-
 
 ### 4、请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见本页一接口描述中的2接口使用
@@ -298,26 +288,16 @@ https://aiapi.jdcloud.com/jdai/sentimentSeries
 https `post` aiapi.jdcloud.com/jdai/sentimentSeries
 
 ### 3. 请求参数  
- 
-#### （1）query请求参数  
-公共请求参数
 
-名称 | 类型 | 必填 | 示例值 | 描述
-------|-----|-----|-----|-----
-appkey | string | 是 | 80d2b762ecb86593f9668526920f46c | 您的appkey，可在买家中心控制台中获
-timestamp | long | 是 | 1541491668060 | 请求的时间戳，精确到毫秒，timestamp有效期5分钟
-sign | string | 是 | 2e148773a0337a8f2200ba90d445f083 | 签名，根据规则MD5(sectetkey,timestamp)
-
-
-#### （2）header请求参数
+#### （1）header请求参数
 业务请求参数
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
 Content-Type | string | 是 | application/json | 表示请求JSON格式的文本信息
+Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
-
-#### （3）body请求参数
+#### （2）body请求参数
 业务请求参数
 
 名称 | 类型 | 必填 | 示例值 | 描述

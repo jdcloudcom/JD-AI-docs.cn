@@ -71,10 +71,10 @@ imageBase64 | string | 是 | 图像Base64编码值，由于过长，不给出示
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-code | string | 1000 | 参见[错误码](Error-Code.md)-系统级错误码
+code | string | 1000 | 参见[错误码](createFace-Error-Code.md)-系统级错误码
 charge | boolean | false 或 true | false：不扣费， true：扣费
 remain | long | 1305 | 按天计算剩余调用次数
-msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
+msg | string | 查询成功 | 参见[错误码](createFace-Error-Code.md)-系统级错误码
 result | object | {...} | 查询结果
 
 
@@ -83,8 +83,8 @@ result | object | {...} | 查询结果
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-status | int | 0 | 返回结果，0表示成功；非0为对应错误号，参见[错误码](Error-Code.md)-业务级错误码
-message | string | Success | 返回错误信息，参见[错误码](Error-Code.md)-业务级错误码
+status | int | 0 | 返回结果，0表示成功；非0为对应错误号，参见[错误码](createFace-Error-Code.md)-业务级错误码
+message | string | Success | 返回错误信息，参见[错误码](createFace-Error-Code.md)-业务级错误码
 result | string | Success | 返回人脸唯一标识faceId
 
  

@@ -43,10 +43,10 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 type | int | 是 | 1 | 情感模型的类型：<br>1: 针对通用场景的评论短语文本，情感极性类别为正负中三维<br/>positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
 text | string | 是 | 我的为什么是这样？这是买对了吧？<br/>我是在京东搜索然后下单的，没买错吧？ | 输入文本
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
 
-### 5、返回参数
+### 5. 返回参数
 #### （1）公共返回参数
 
 名称 | 类型 | 示例值 | 描述
@@ -75,7 +75,7 @@ sentiment | list |  [{"sentiment": "other",<br/>"probability": 0.581491529941558
 sentiment | string | positive | 情感名称
 probability | double | 0.05233341082930565 | 情感概率
 
-### 6、返回示例    
+### 6. 返回示例    
 
 ```
 {
@@ -137,10 +137,10 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 type | int | 是 | 3 | 情感模型的类型：<br>  positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
 text | string | 是 | 周三了，怎么还没有到货啊 | 输入文本
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见本页一接口描述中的2接口使用
 
-### 5、返回参数
+### 5. 返回参数
 #### （1）公共返回参数
 
 名称 | 类型 | 示例值 | 描述
@@ -180,7 +180,7 @@ probability | double | 0 | 浓度值
 
 
  
-### 6、返回示例    
+### 6. 返回示例    
 
 ```
 {
@@ -306,10 +306,10 @@ type | string | 是 | 0 | 情感模型的类型：0:<br> 一段会话中情感�
 texts | List&lt;string&gt; | 是 | ["货还没送到",<br/>"货还没收到",<br/>"他妈这个厂家真不是人来的",<br/>"还是纠纷那个单",<br/>"都投诉N次了",<br/>"都仲裁N次了，没结果"<br/>]| 输入文本，这是一段会话的若干个文本，<br/>ist里的每一个元素为单次的会话文本
 
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见本页一接口描述中的2接口使用
 
-### 5、返回参数
+### 5. 返回参数
 #### （1）公共返回参数
 
 名称 | 类型 | 示例值 | 描述
@@ -337,7 +337,7 @@ sentiment | list |  [{"sentiment": "turn_bad","probability": 0},...]  | 情感�
 sentiment | string | turn_bad | 情感变化
 probability | double | 0 | 情感概率
  
-### 6、返回示例    
+### 6. 返回示例    
 
 ```
 {

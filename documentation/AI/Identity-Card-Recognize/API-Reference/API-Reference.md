@@ -10,7 +10,7 @@
 > 1. 图片格式：jpg、jpeg、png、jfif
 > 2. 图片大小：小于1M 
 
-### 4. 接口使用：  
+### 3. 接口使用：  
 
 公测期间用户可以免费（0元）进行测试，根据[购买流程](../Pricing/Purchase-Process.md)下单后，即可开始体验业内领先的人工智能API服务。公测期间服务具有调用量、QPS限制，如需更高性能的API服务，请联系客服扩容购买。
 
@@ -44,7 +44,7 @@ Authorization | String | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 ------|-----|-----|-----|-----
 无 | binary | 是 | 无 | 图片内容，传入图片
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
 
 ## 三、返回说明

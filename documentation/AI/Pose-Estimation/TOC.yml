@@ -23,10 +23,12 @@ items:
         href: Pricing/Purchase-Process.md
   - name: 开发指南
     items:
-      - name: API的访问授权
+      - name: 获取AK/SK
         href: Operation-Guide/Authentication.md
       - name: 签名算法
         href: Operation-Guide/Signature-Algorithm.md
+      - name: 调用方法
+        href: Operation-Guide/call-methods.md
       - name: sdk的使用方法
         href: Operation-Guide/Use-Sdk.md
 

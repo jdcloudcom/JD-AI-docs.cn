@@ -71,7 +71,7 @@ main_body_rectangle | String | action_type=1情况下必填 | main_body_rectangl
 
 注意:1.若无action_type字段，用户触发请求无效; 2.channel_id=test 每日最大调用量为500次。
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
 
 ## 三、返回说明

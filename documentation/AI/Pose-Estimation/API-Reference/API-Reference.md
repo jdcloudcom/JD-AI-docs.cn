@@ -53,7 +53,7 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 无 | binary | 必选 | 无 | 图片内容，传入图片
 
 
-### 4、请求代码示例
+### 4. 请求代码示例
 
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
 

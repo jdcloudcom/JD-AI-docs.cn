@@ -43,7 +43,7 @@ groupId | string | 否 | 6979e9bd79b944b49e0d6e74079d5098 | 分组Id
 groupName | string | 否 | test | 分组名称,若groupId不为空则以groupId作为删除分组的唯一标识
 
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
  
 ## 返回说明

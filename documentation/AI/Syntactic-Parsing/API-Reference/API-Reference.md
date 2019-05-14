@@ -43,7 +43,7 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 ------|-----|-----|-----|-----
 text | string | 是 | 克林顿访问中国 | 输入文本
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
 
 

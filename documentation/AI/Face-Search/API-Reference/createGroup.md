@@ -44,7 +44,7 @@ groupName  | string  | 是  | test  | 分组名称, 不支持中文以及特殊�
 groupInfo  | string  | 否  | test test  | 分组描述，支持中文和特殊字符
 
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
  
 ## 返回说明

@@ -16,12 +16,12 @@
 ### 1. 接口地址 ：
 
 ```
-https://aiapi.jdcloud.com/jdai/commentTag
+https://aiapi.jdcloud.com/jdai/CommentTag
 ```
 
 ### 2. 请求方式：
 
-https `post` aiapi.jdcloud.com/jdai/commentTag
+https `post` aiapi.jdcloud.com/jdai/CommentTag
 
 
 ### 3. 请求参数
@@ -42,7 +42,7 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 text | string | 是 | 快递一共花了十七天才到 | 输入文本
 
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
 
 

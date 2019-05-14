@@ -59,7 +59,7 @@ imageBase64=xxxx
 imageBase64 | string | 是 | 图像Base64编码值，由于过长，不给出示例 | 图片的Base64编码
 
 
-### 4、请求代码示例
+### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
  
 ## 返回说明

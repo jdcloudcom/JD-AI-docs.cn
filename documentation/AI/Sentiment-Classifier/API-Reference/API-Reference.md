@@ -18,12 +18,12 @@
 ### 1. 接口地址 ：
 
 ```
-https://aiapi.jdcloud.com/jdai/nlp_sentiment_three_own
+https://aiapi.jdcloud.com/jdai/sentiment
 ```
 
 ### 2. 请求方式：
   
-https `post` aiapi.jdcloud.com/jdai/nlp_sentiment_three_own
+https `post` aiapi.jdcloud.com/jdai/sentiment
 
 ### 3. 请求参数  
 
@@ -40,7 +40,8 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-text | string | 是 | 退货退货 | 输入文本
+type | int | 是 | 3 | 情感模型的类型：<br>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
+text | string | 是 | 我的为什么是这样？这是买对了吧？<br/>我是在京东搜索然后下单的，没买错吧？ | 输入文本
 
 ### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)

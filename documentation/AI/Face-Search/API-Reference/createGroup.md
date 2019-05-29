@@ -72,7 +72,7 @@ message  | string  | Success  | 若status为0，返回分组id，否则返回错
 
 ### 2、返回示例
 
-```Json
+```JSON
 {
     "status": 0, 
     "charge": false,

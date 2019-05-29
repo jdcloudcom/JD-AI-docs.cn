@@ -95,7 +95,7 @@ node_info | list列表 | [x,y,score,node,x,y,score,node,……] | x为关键点�
 ### 2、返回示例  
 
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,

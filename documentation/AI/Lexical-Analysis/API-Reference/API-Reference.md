@@ -85,7 +85,7 @@ length | int | 3 | 分词长度
 
 ### 2、返回示例    
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,

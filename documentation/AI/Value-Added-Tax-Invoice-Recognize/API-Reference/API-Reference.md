@@ -87,7 +87,7 @@ verify_code|string|44095028783173850994|校验码
 ### 2、返回示例   
 
 
-```
+```JSON
 {
     "code": 0,
     "message": "success",

@@ -36,7 +36,7 @@ https `post` aiapi.jdcloud.com/jdai/asr
 
 - 示例：
 
-```Json
+```JSON
 {
 	"Domain":"search",
 	"Application-Id":"JD-logistics-app",
@@ -117,7 +117,7 @@ content | object | {...} | 识别结果
 
 ### 2. 返回示例
 
-```Json
+```JSON
 {
     "code": "10000",
     "charge": false,

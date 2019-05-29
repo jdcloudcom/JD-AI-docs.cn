@@ -86,7 +86,7 @@ result | string | Success | 返回人脸唯一标识faceId
 
 ### 2、返回示例
 
-```Json
+```JSON
 {
     "status": 0, 
     "charge": false,

@@ -84,12 +84,12 @@ type | String | 小型轿车 | 车辆类型
 ### 2、返回示例   
 
 
-```
+```JSON
 {
     "code": 0,
     "charge":false,
-    "remain":0，
-    "msg":"查询成功"，
+    "remain":0,
+    "msg":"查询成功",
     "result":{
         "resultData": {
             "owner": "鲍岩",

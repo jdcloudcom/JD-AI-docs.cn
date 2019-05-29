@@ -72,7 +72,7 @@ message | string | Success | 返回错误信息，参见[错误码](deleteFace-E
 
 ### 2、返回示例
 
-```Json
+```JSON
 {
     "status": 0, 
     "charge": false,

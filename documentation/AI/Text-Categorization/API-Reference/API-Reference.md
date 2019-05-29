@@ -84,7 +84,7 @@ domainName | string | info | 分类名称
 
 ### 2、返回示例
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,

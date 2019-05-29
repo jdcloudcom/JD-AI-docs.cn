@@ -95,7 +95,7 @@ faceAttribute | object | "faceAttribute":{<br/>"age":13,<br/>"beard":0,<br/>"bea
 
 ### 2、返回示例
 
-```Json
+```JSON
 {
     "status": 0, 
     "charge": false,

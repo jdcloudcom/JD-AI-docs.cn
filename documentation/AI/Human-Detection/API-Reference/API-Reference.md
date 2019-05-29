@@ -76,7 +76,7 @@ humanDetectionResult  | array  | [[x1,y1,x2,y2,score],[x1,y1,x2,y2,score],...]  
 
 ### 2、返回示例
 
-```Json
+```JSON
 {
     "code": 10000, 
     "charge": false,

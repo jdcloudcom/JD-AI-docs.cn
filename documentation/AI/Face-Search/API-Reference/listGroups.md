@@ -73,7 +73,7 @@ result  | string  |   | 分组列表
 
 ### 2、返回示例
 
-```Json
+```JSON
 {
     "status": 0, 
     "charge": false,

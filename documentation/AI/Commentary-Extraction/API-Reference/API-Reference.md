@@ -81,7 +81,7 @@ properity | String | 物流 | 属性 例如：物流，服务，功能等509种
 ### 2、返回示例
 
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,

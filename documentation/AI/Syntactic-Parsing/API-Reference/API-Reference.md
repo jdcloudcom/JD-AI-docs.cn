@@ -75,7 +75,7 @@ word | string | 克林顿 | 分词
  
 ### 2、返回示例    
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,

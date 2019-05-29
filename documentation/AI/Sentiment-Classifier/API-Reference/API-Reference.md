@@ -40,7 +40,7 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-type | int | 是 | 3 | 情感模型的类型：<br>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
+type | int | 是 | 1 | 情感模型的类型：<br>1: 针对通用场景的评论短语文本，情感极性类别为正负中三维<br/>positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
 text | string | 是 | 我的为什么是这样？这是买对了吧？<br/>我是在京东搜索然后下单的，没买错吧？ | 输入文本
 
 ### 4. 请求代码示例
@@ -77,7 +77,7 @@ probability | double | 0.05233341082930565 | 情感概率
 
 ### 6. 返回示例    
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,
@@ -134,7 +134,7 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-type | int | 是 | 3 | 情感模型的类型：<br>  positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
+type | int | 是 | 3 | 情感模型的类型：<br>1: 针对通用场景的评论短语文本，情感极性类别为正负中三维<br/>positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
 text | string | 是 | 周三了，怎么还没有到货啊 | 输入文本
 
 ### 4. 请求代码示例
@@ -182,7 +182,7 @@ probability | double | 0 | 浓度值
  
 ### 6. 返回示例    
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,
@@ -339,7 +339,7 @@ probability | double | 0 | 情感概率
  
 ### 6. 返回示例    
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,

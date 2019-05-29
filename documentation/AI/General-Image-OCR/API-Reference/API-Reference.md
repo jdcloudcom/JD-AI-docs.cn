@@ -80,7 +80,7 @@ text | String | 经济实惠 | 识别结果
 ### 2、返回示例   
 
 
-```
+```JSON
 {
     "code": 0,
     "resultData": [

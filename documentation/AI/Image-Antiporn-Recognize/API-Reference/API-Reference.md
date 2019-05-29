@@ -94,7 +94,8 @@ vulgarScore | double | 是 | 0.1532 | 低俗分数
 normalScore | double | 是 | 0.3409 | 正常分数
 
 ### 3.返回实例 ###
-```
+
+```JSON
 {
     "code":"10000",
     "charge":false,

@@ -101,7 +101,7 @@ audio | string | Uv4I/mD+zf4… | 音频数据（base64编码）
 
 ### 2、返回示例  
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,

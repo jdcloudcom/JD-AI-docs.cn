@@ -111,16 +111,6 @@
       <td>"Error parsing parameter information"</td>
       <td>参数解析错误</td>
    </tr>
-   <tr>
-      <td>12004</td>
-      <td>"Text length greater than 128"</td>
-      <td>文本长度超过128</td>
-   </tr>
-  <tr>
-      <td>500</td>
-      <td>"Server error"</td>
-      <td>服务内部错误</td>
-  </tr>
 </table>
 
 

@@ -40,7 +40,7 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-type | int | 是 | 3 | 情感模型的类型：<br>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
+type | int | 是 | 1 | 情感模型的类型：<br>1: 针对通用场景的评论短语文本，情感极性类别为正负中三维<br/>positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
 text | string | 是 | 我的为什么是这样？这是买对了吧？<br/>我是在京东搜索然后下单的，没买错吧？ | 输入文本
 
 ### 4. 请求代码示例
@@ -77,7 +77,7 @@ probability | double | 0.05233341082930565 | 情感概率
 
 ### 6. 返回示例    
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,
@@ -134,7 +134,7 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-type | int | 是 | 3 | 情感模型的类型：<br>  positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
+type | int | 是 | 3 | 情感模型的类型：<br>1: 针对通用场景的评论短语文本，情感极性类别为正负中三维<br/>positive, negative, other<br/>3: 针对客服对话场景的短语文本，情感极性类别为七维<br/>other, anxiety, anger, happy, lost, sad, fear<br/>5: 针对客服对话场景的短语文本，情感极性类别为八维<br/>other, anxiety, anger, happy, lost, sad, fear, satiric<br/>
 text | string | 是 | 周三了，怎么还没有到货啊 | 输入文本
 
 ### 4. 请求代码示例
@@ -182,7 +182,7 @@ probability | double | 0 | 浓度值
  
 ### 6. 返回示例    
 
-```
+```JSON
 {
     "code": "10000",
     "charge": false,
@@ -353,97 +353,6 @@ probability | double | 0 | 情感概率
             {
                 "sentiment": "turn_bad",
                 "probability": 0
-            }
-        ]
-    }
-}
-```
-
-## 五、评论倾向分析
-
-### 1. 接口地址 ：
-
-```
-https://aiapi.jdcloud.com/jdai/nlp_sentiment_three_own
-```
-
-### 2. 请求方式：
-  
-https `post` aiapi.jdcloud.com/jdai/nlp_sentiment_three_own
-
-### 3. 请求参数  
-
-#### （1）header请求参数
-业务请求参数
-
-名称 | 类型 | 必填 | 示例值 | 描述
-------|-----|-----|-----|-----
-Content-Type | string | 是 | application/json | 表示请求JSON格式的文本信息
-Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
-
-#### （2）body请求参数
-业务请求参数
-
-名称 | 类型 | 必填 | 示例值 | 描述
-------|-----|-----|-----|-----
-text | string | 是 | 退货退货 | 待分析文本内容(128字以内)
-
-
-### 4. 请求代码示例
-建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见本页一接口描述中的2接口使用
-
-### 5. 返回参数
-#### （1）公共返回参数
-
-名称 | 类型 | 示例值 | 描述
-------|-----|-----|-----
-code | string | 1000 | 参见[错误码](Error-Code.md)-系统级错误码
-charge | boolean | false 或 true | false：不扣费， true：扣费
-remain | long | 1305 | 按天计算剩余调用次数
-msg | string | 查询成功 | 参见[错误码](Error-Code.md)-系统级错误码
-result | object | {...} | 查询结果
-
-
-#### （2）业务返回参数
-
-名称 | 类型 | 示例值 | 描述
-------|-----|-----|-----
-status | int | 0 | 参见[错误码](Error-Code.md)-业务级错误码
-message | string | ok | 参见[错误码](Error-Code.md)-业务级错误码
-request_id | string | 5893465d31284468a8014de6ee430f8e | 便于双方定位问题
-sentiment | list |  [{"sentiment": "other","probability": 0},...]  | 情感分析结果，包括情感名称和概率，按照概率从大到小排列，详情见sentiment字段说明
-
-#### sentiment字段说明
-
-名称 | 类型 | 示例值 | 描述
-------|-----|-----|-----
-sentiment | string | negative | 情感名称 <br/>positive:积极<br/>negative:消极<br/>other:其他
-probability | double | 0 | 情感概率
- 
-### 6. 返回示例    
-
-```JSON
-{
-    "code": "10000",
-    "charge": false,
-    "remain": 7943,
-    "msg": "查询成功",
-    "result": {
-        "status": 0,
-        "request_id": "7b52458a-5479-4ef1-a5da-434a2ed577f9",
-        "message": "ok",
-        "sentiment": [
-            {
-                "sentiment": "negative",
-                "probability": 0.9998070597648621
-            },
-            {
-                "sentiment": "other",
-                "probability": 0.00014084218128118664
-            },
-            {
-                "sentiment": "positive",
-                "probability": 0.00005208870061323978
             }
         ]
     }

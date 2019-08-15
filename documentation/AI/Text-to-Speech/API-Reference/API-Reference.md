@@ -96,7 +96,7 @@ status | int | 0 | 参见[错误码](Error-Code.md)-业务级错误码
 message | string | ok | 参见[错误码](Error-Code.md)-业务级错误码
 request_id | string | 65845428-de85-11e8-9517-040973d59a1e | 便于双方定位问题（与请求头部的request-id一致）
 index | int | -3 | 分段序号，从1开始，负值表示最后一包（非流式直接返回-1）
-audio | string | Uv4I/mD+zf4… | 音频数据（base64编码）
+audio | string | Uv4I/mD+zf4… | 音频数据（base64编码，需自行解码并保存成本地音频文件）
 
 
 ### 2、返回示例  

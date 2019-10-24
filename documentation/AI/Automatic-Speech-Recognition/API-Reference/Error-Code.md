@@ -106,11 +106,11 @@
   </tr>
   <tr>
     <td>31002</td>
-    <td>语音数据过长，一次请求音频不能超过一分钟</td>
+    <td>语音数据过长，单次请求音频时长限制为 60 秒内</td>
   </tr>
    <tr>
     <td>31003</td>
-    <td>请求参数出错，缺少Request-Id、Sequence-Id或Application-Id等。</td>
+    <td>请求参数出错，缺少 Request-Id、Sequence-Id 或 Application-Id 等。</td>
   </tr>
    <tr>
     <td>31004</td>
@@ -130,15 +130,15 @@
   </tr>
    <tr>
     <td>32002</td>
-    <td>服务内部am-server模块错误</td>
+    <td>服务内部 am-server 模块错误</td>
   </tr>
   <tr>
     <td>32003</td>
-    <td>服务内部链接decoder-server模块错误</td>
+    <td>无法访问 decoder-server 服务</td>
   </tr>
    <tr>
     <td>33001</td>
-    <td>服务内部decoder-server模块错误</td>
+    <td>服务内部 decoder-server 模块错误</td>
   </tr>
    <tr>
     <td>33002</td>

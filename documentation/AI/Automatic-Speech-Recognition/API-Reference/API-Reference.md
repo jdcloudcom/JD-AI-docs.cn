@@ -9,10 +9,10 @@
 语音识别API根据不同的使用场景，使用在对应领域场景下训练的模型，以提高识别准确率。
 
 ### 3. 音频要求
-> 1. 目前支持的音频格式：wav、mp3、amr
-> 2. 目前支持的采样率：16000
+> 1. 建议的音频格式：wav、mp3、amr
+> 2. 建议的音频采样率：8000 Hz 或 16000 KHz（根据模型领域选择）
 > 3. 建议的声道数：单声道
-> 4. 一次请求的音频最大时长：60秒以内
+> 4. 单次请求的音频最大时长：60秒以内
 
 ### 4. 接口使用
 公测期间用户可以免费（0元）进行测试，根据[购买流程](../Pricing/Purchase-Process.md)下单后，即可开始体验业内领先的人工智能API服务。公测期间服务具有调用量、QPS限制，如需更高性能的API服务，请联系客服扩容购买。
@@ -35,55 +35,41 @@ https `post` aiapi.jdcloud.com/jdai/asr
 
 #### （1）header请求参数  
 
-- 示例：
-
-```JSON
-{
-	"Domain":"search",
-	"Application-Id":"JD-logistics-app",
-	"Request-Id":"56a847e6-84c0-4c01-bf4b-d566f2d2dd11",
-	"Sequence-Id":1,
-	"Asr-Protocol":1,
-	"Net-State":2,
-	"Applicator":0,
-	"Property":{
-		"autoend" : false, 
-		"encode" : {
-			"channel" : 1, 
-			"format" : "wav", 
-			"sample_rate" : 16000
-		},
-		"platform" : "Linux", 
-		"version" : "0.0.0.1"
-	}
-}
-```
 - 字段说明：
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-Domain | string | 是 | search | 领域。跟语音识别场景有关，目前可选值为：<br>- search<br>- jingme_mia
-Application-Id | string | 否 | your Application-Id | 产品ID。业务方应用名称，由Client端生成。
-Request-Id | string | 是 | 56a847e6-84c0-4c01-bf4b-d566f2d2dd11-app | 请求语音串标识码。由客户端生成，<br/>代表完整的语音识别请求过程，需要注意：<br>- 需要全局唯一<br>- 对于同一次请求Request-Id需要保持一致<br>- 每一次识别请求都要新生成Request-Id，<br/>若多次请求使用同一个将会产生不可预知的错误。<br><br>生成方法: <br>- libuuid 库可以直接生成。Android 及 iOS也有相关的生成函数。
-Sequence-Id | int | 是 | -1 | 语音分段传输的分段号。从 1 开始，为负表示最后一段语音。<br/>例如：一次语音识别请求分10个请求，<br/>则Sequence-Id依次为：1,2,3,4,5,6,7,8,9,-10
-Asr-Protocol | int | 是 | 1 | 通信协议版本号，使用 1 即可
+Domain | string | 是 | search | 模型领域：<br>- general，通用场景，需要使用 16000 Hz 采样率的音频<br>- call_center，呼叫中心场景，需要使用 8000 Hz 采样率的音频
+Application-Id | string | 否 | your Application-Id | 产品ID：<br>- 业务方应用名称，由业务方在客户端自行生成。
+Request-Id | string | 是 | *56a847e6-84c0-4c01-bf4b-d566f2d2dd11 | 请求 ID：<br>- *注意：示例值仅供参考，正式使用请务必通过 uuid 生成<br>- 对于同一次请求 Request-Id 需要保持一致，多次请求使用同一个将会产生不可预知的错误
+Sequence-Id | int | 是 | -1 | 语音传输分段号：<br>- 从 1 开始依次递增，最后一段语音取负值，分为下述两种情况：<br>1. 在一个 Request-Id 中，上传整个音频文件（整包请求）时：填 -1<br>2. 在一个 Request-Id 中，音频文件分段上传（分段请求）时，遵循默认规则依次递增。例如：一次语音识别请求中，音频分 10 次上传，则 Sequence-Id 依次为：1,2,3,4,5,6,7,8,9,-10
+Asr-Protocol | int | 是 | 1 | 通信协议版本号：<br>- 默认填 1
 Net-State | int | 否 | 2 | 客户端网络状态：<br>- NETSTATE_NO_NETWORK = 0;<br>- NETSTATE_NO_WIFI_MOBILE = 1; <br>- NETSTATE_WIFI = 2; <br>- NETSTATE_CDMA = 3; <br>- NETSTATE_EDGE = 4;   //移动 2.5G<br>- NETSTATE_EVDO_0 =5; <br>- NETSTATE_EVDO_A = 6; <br>- NETSTATE_GPRS = 7; <br>- NETSTATE_HSDPA = 8;   //联通 3G<br>- NETSTATE_HSPA = 9;<br>- NETSTATE_HSUPA = 10;<br>- NETSTATE_UMTS = 11;<br>- NETSTATE_EHRPD = 12;<br>- NETSTATE_EVDO_B = 13;<br>- NETSTATE_HSPAP = 14;<br>- NETSTATE_IDEN = 15;<br>- NETSTATE_LTE = 16;<br>- NETSTATE_UNKOWN_MOBILE = 20;
-Applicator | int | 否 | 1 | 应用者，SDK 会提供给不同的应用者<br/>(渠道，例如：内部业务(0)，外部业务(1))</td>
-*Property | bject | 否 | {...} | 包含语音识别相关的请求参数<br/>(如果请求的音频不分包上传，请求时该参数必填；如果分包上传，则第一次请求必填，后边的请求可选)<br/>例如采样率、音频格式等。此参数要在第一个请求包的时候传过来，即Sequence-Id为 1 或者 -1 (-1 表示一次语音识别请求只有一个http请求包的情况)
-Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
+Applicator | int | 否 | 1 | 业务方信息：<br>- 0：内部业务方<br>- 1：外部业务方</td>
+Property | JSON | 是 | {...} | 语音识别请求参数：<br>- 注意：如果 Sequence-Id 为 1 或 -1 时，则 Property 参数必填；其他情况下，该参数可选填</td>
 
 
 - Property参数
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-autoend | bool | 是 | false | bool类型，服务端自动断尾检测（VAD）功能开关（当前仅支持不开启）
-encode | object | 是 | {...} | 语音识别的请求格式：<br>- channel：int类型，音频声道数，目前只支持单声道，填1<br>- format：string类型，音频格式，目前支持wav，amr，mp3<br>- sample_rate：int类型，采样率，目前只支持16000
-platform | string | 是 | iOS&iPhoneX&11.4.1 | 字符串类型，各平台的机型信息，格式为：{平台}&{机型}&{系统版本号}<br>- 平台：Android，iOS，Linux，Windows<br>- 机型：设备的机型名称，如Pixel，iPhoneX等<br>- 系统版本号：设备系统版本，如2.3.3，4.2.1等<br>- 示例：Android&Pixel&7.1；iOS&iPhoneX&11.4.1
+autoend | bool | 是 | false | 服务端自动断尾检测（VAD）功能开关：<br>- false：不开启 VAD 功能<br>- true：开启 VAD 功能
+platform | string | 是 | Linux&Centos&7.3 | 平台信息：<br>格式：{系统信息}&{设备信息}&{系统版本号}<br>- 系统信息：如 Android，iOS，Linux，Windows<br>- 设备信息：如 Pixel 3，iPhone X 等<br>- 系统版本号：设备系统版本，如 2.3.3，4.2.1 等<br>- 示例：Android&Pixel 3&7.1；iOS&iPhone X&11.4.1
 version | string | 是 | 0.0.0.1 | 客户端版本号
+encode | JSON | 是 | {...} | 音频参数
+
+- encode字段
+
+名称 | 类型 | 必填 | 示例值 | 描述
+------|-----|-----|-----|-----
+channel | int | 是 | 1 | 音频声道数：<br>- 建议使用单声道音频，单声道填 1
+format | string | 是 | wav | 音频格式：<br>- 建议使用 wav，amr，mp3 格式
+sample_rate | int | 是 | 16000 | 音频采样率：<br>- 通用场景使用 16000 Hz，填 16000<br>- 呼叫中心场景使用 8000 Hz，填 8000
+post_process | int | 否 | 0 | 数字后处理：<br>- 0：根据服务端配置是否进行数字后处理<br>- 1：强制开启数字后处理（开启后，会把结果中的数字汉字转换成阿拉伯数字。例如，识别结果中的"一千"会转成"1000"）
 
 #### （2）body请求参数
-放置待识别的语音数据。
+填充待识别的音频数据（二进制）。
+音频数据可按照自定义长度进行切分，按顺序分包上传，并与 header 请求参数中的 Sequence-Id 参数的顺序保持对应。
 
 ### 4. 请求代码示例
 

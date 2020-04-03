@@ -1,7 +1,7 @@
 # **sdk的使用方法**
 
 ## 获取说明 
-根据[购买流程](../Pricing/Purchase-Process.md)，0元购买“短文本相似度”产品后，再次进入京东云“短文本相似度”控制台页面，点击[“下载SDK”](https://jdai.s3.cn-north-1.jdcloud-oss.com/aisdk/sdk/ai-java-sdk.zip)，进入API调试页面下载SDK。
+根据[购买流程](../Pricing/Purchase-Process.md)，0元购买“短文本相似度”产品后，再次进入京东智联云“短文本相似度”控制台页面，点击[“下载SDK”](https://jdai.s3.cn-north-1.jdcloud-oss.com/aisdk/sdk/ai-java-sdk.zip)，进入API调试页面下载SDK。
 
 ## 调用方式
 
@@ -16,7 +16,7 @@
 </dependency>
 ```
 
-您还可以下载sdk源代码自行使用，进入京东云“短文本相似度”控制台页面，点击“下载SDK”，查看java示例代码。
+您还可以下载sdk源代码自行使用，进入京东智联云“短文本相似度”控制台页面，点击“下载SDK”，查看java示例代码。
 
 java sdk[下载请点击](https://jdai.s3.cn-north-1.jdcloud-oss.com/aisdk/sdk/ai-java-sdk.zip)
 

@@ -22,7 +22,7 @@ CanonicalQueryString为请求查询字符串。要构建规范查询字符串，
 
 要创建规范HTTP请求头列表，请将所有HTTP头名称转换为***小写***（请保证请求头名称不能包含空格），并***删除请求头value中前导空格和尾随空格。*** 通过用字符代码***升序***对请求头进行排序，然后遍历请求头名称来构建规范HTTP请求头列表。注意**：x-jdcloud-date**（遵循ISO8601标准，使用UTC时间，格式为YYYYMMDDTHHmmssZ）, ***x-jdcloud-nonce***必须在请求中包含并且参与签名；如果有***x-jdcloud-security-token***头，此项也必须参与签名。
 
-CanonicalHeaders表示需要参与签名的请求头及值，使用:分隔名称和值，并添加换行符。 SignedHeaders用于告知京东云，请求头中的哪些是签名过程的一部分。
+CanonicalHeaders表示需要参与签名的请求头及值，使用:分隔名称和值，并添加换行符。 SignedHeaders用于告知京东智联云，请求头中的哪些是签名过程的一部分。
 
 最后，需要把请求体中的payload做SHA256哈希后，表示为***小写十六进制字符串***。如果有效负载为空，则使用空字符串作为Hash函数的输入。
 
@@ -82,7 +82,7 @@ JDCLOUD2-HMAC-SHA256
 ## ***签名步骤3：计算签名***
 计算的伪代码
 ```$xslt
-kSecret = 京东云Access Key Secret
+kSecret = 京东智联云Access Key Secret
 kDate = HMAC("JDCLOUD2" + kSecret, Date)
 kRegion = HMAC(kDate, Region)
 kService = HMAC(kRegion, Service)

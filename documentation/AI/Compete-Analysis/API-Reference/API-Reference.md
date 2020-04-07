@@ -13,10 +13,10 @@
 在获得使用权限后，您可使用已经封装好的SDK进行相应开发，整体流程详见[调用方法](../Operation-Guide/call-methods.md)  。
 
 ### 3. 能力说明：
-输入SKU_ID品类限定为京东商城在售的自营冰箱品类，不能提供其他品类SKU_ID的识别能力。
+输入SKU_ID品类限定为京东零售在售的自营冰箱品类，不能提供其他品类SKU_ID的识别能力。
 
 ### 4. 接口数据要求：
-- sku_id：限定为京东商城在售自营冰箱品类sku_id
+- sku_id：限定为京东零售在售自营冰箱品类sku_id
 
 ## 二、请求说明
 
@@ -80,8 +80,8 @@ Content-Type | String | 是 | application/x-www-form-urlencoded | 标准编码�
       <td>sku_id</td>
       <td>string</td>
       <td>是</td>
-      <td>sku_id为京东商城在售自营冰箱品类sku,示例sku_id=2312215</td>
-      <td>京东商城在售冰箱品类sku_id</td>
+      <td>sku_id为京东零售在售自营冰箱品类sku,示例sku_id=2312215</td>
+      <td>京东零售在售冰箱品类sku_id</td>
    </tr>
 </table>
 

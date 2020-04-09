@@ -16,13 +16,13 @@
 > 基于检测、分类和特征表示能力，支持用户上传图片及相关信息后自动提取图片特征并构建索引，支持索引构建完成后进行图片搜索，图片及相关信息的管理。
 
 ## 二、请求说明
-### [图片入库请求](./insert_data.html/)
-### [任务状态查询请求](./fetch_task_status.html/)
-### [图片搜索请求](./search.html/)
-### [库列表查询请求](./list_collection.html/)
-### [图片删除请求](./delete_image.html/)
-### [图片信息更新请求](./update_infos.html/)
-### [图片信息查询请求](./fetch_infos.html/)
+### [图片入库请求](insert_data.md)
+### [任务状态查询请求](fetch_task_status.md)
+### [图片搜索请求](search.md)
+### [库列表查询请求](list_collection.md)
+### [图片删除请求](delete_image.md)
+### [图片信息更新请求](update_infos.md)
+### [图片信息查询请求](fetch_infos.md)
 
 ## 三、接口数据要求
 > 1. 图片格式：Base64 或 url

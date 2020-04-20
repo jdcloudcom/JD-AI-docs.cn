@@ -19,10 +19,10 @@
 
 ## 二、请求说明
 
-### [创建商品接口](./create_product.md)
-### [商品图入库接口](./add_image.md)
-### [入库状态查询接口](./task_status.md)
-### [商品图片搜索接口](./product_search.md)
+### [创建商品接口](create_product.md)
+### [商品图入库接口](add_image.md)
+### [入库状态查询接口](task_status.md)
+### [商品图片搜索接口](product_search.md)
 
 ## 三、错误码
 

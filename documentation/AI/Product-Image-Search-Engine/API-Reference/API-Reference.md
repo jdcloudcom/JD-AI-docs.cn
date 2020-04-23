@@ -23,6 +23,9 @@
 ### [商品图入库接口](add_image.md)
 ### [入库状态查询接口](task_status.md)
 ### [商品图片搜索接口](product_search.md)
+### [商品图片信息查询](image_info.md)
+### [商品图片删除](delete_image.md)
+### [商品删除](delete_product.md)
 
 ## 三、错误码
 

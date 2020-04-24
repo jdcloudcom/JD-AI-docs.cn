@@ -34,29 +34,29 @@
 
 如果训练任务有成功的结果的话，会在项目评估结果中出现，如下图：
 
-![查看训练任务2](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/8.png "查看训练任务2")
+![查看训练任务2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/8.png "查看训练任务2")
 
 点击评估详情区域的下拉箭头，可展示更详细的评估内容，如列表每一个类别的准确率和错误图片等信息：
 
-![查看评估结果](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/9.png "查看评估结果")
+![查看评估结果](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/9.png "查看评估结果")
 
 展开后下图：
 
-![查看评估结果2](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/10.png "查看评估结果2")
+![查看评估结果2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/10.png "查看评估结果2")
 
 **第三步，服务发布**
 
 通过项目详情页，点击项目评估的项目操作"发布"，或者在历史任务中已完成任务后面发布，
 
-![服务发布1](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/11.png "服务发布1")
+![服务发布1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/11.png "服务发布1")
 
 点击发布之后，页面跳转至发布信息填写页
 
-![服务发布2](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/12.png"服务发布2")
+![服务发布2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/12.png"服务发布2")
 
 填写服务名称以及自定义的接口地址之后，点击"服务发布"后即可提交服务发布请求，我们的管理员会尽快进行审核。
 
-![服务审核1](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/13.png "服务审核1")
+![服务审核1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/13.png "服务审核1")
 
 通过审核后，服务状态会变成运行中，此时可通过接口调用来使用刚才训练完成的模型能力。
 

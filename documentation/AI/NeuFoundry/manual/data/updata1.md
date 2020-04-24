@@ -2,15 +2,15 @@
 
 在"我的数据集"菜单的右上角点击“新建数据集”，进入新建数据集页面
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/1.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/1.png)
 
 标注状态选择"原始数据"，根据页面要求填写基本信息即可。
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/2.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/2.png)
 
 根据所选数据集类型，通过点击或将数据集压缩包拖动到指定位置即可上传数据集，详细数据集要求及样例可参见页面要求，如上传文件不符合要求会有相应提示，根据提示可进行下一步操作。
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/3.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/3.png)
 
 ---
 

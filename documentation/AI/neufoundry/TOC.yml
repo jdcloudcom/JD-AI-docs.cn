@@ -1,4 +1,4 @@
-name: neufoundry
+name: NeuFoundry
 href:
 items:
 - name: 基础知识
@@ -29,6 +29,7 @@ items:
   items:
     - name:  数据
       href:  manual/data.md
+      items:
       - name:  数据管理功能
         href:  manual/data/updata1.md
       - name:  原始数据上传
@@ -53,6 +54,7 @@ items:
       href:  dataset/sample.md
     - name:  项目
       href:  manual/project.md 
+      items:
       - name:  算法任务式
         href:  manual/project/task.md
       - name:  Jupyter NoteBook

@@ -28,7 +28,7 @@ items:
   - name: 个人概览页
     items:
       - name:  数据
-        href:  manual/data.md
+        href:  manual/dataset.md
         items:
           - name:  数据管理功能
             href:  manual/data/updata1.md

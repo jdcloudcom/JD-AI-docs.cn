@@ -4,7 +4,7 @@
 
 1、在NeuFoundry首页焦点图位置找到“demo体验”按钮，点击进入
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.1/1.png)
+![demo体验](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.1/1.png)
 
 
 

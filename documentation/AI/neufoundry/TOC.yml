@@ -1,0 +1,88 @@
+name: NeuFoundry
+href:
+items:
+  - name: 基础知识
+    items:
+      - name: 名词解释
+        href: basic/glossary.md
+      - name: AI开发基本流程
+        href: basic/process.md
+      - name: 准备工作
+        href: basic/prepare.md
+  - name: 产品介绍
+    items:
+      - name: 产品概述
+        href: introduction/overview.md
+      - name: 产品架构
+        href: introduction/overview.md
+      - name: 产品优势
+        href: introduction/overview.md#product
+  - name: 快速入门
+    items:
+      - name: 演示demo
+        href: quickstart/demo.md
+      - name: 自动化模型训练
+        href: quickstart/auto.md
+      - name: neufoundry产品使用指南
+        href: quickstart/readme.md
+  - name: 个人概览页
+    items:
+      - name:  数据
+        href:  manual/data.md
+        items:
+          - name:  数据管理功能
+            href:  manual/data/updata1.md
+          - name:  原始数据上传
+            href:  manual/data/updata1.md
+          - name:  标注数据上传
+            href:  manual/data/updata2.md
+          - name:  标注文件上传
+            href:  manual/data/updata3.md
+          - name:  数据标注功能
+            href:  manual/data/tag1.md
+          - name:  文本分类标注
+            href:  manual/data/tag1.md
+          - name:  图像分类标注
+            href:  manual/data/tag2.md
+          - name:  目标检测标注
+            href:  manual/data/tag3.md
+          - name:  公开数据集
+            href:  manual/data/public.md
+          - name:  我的收藏（数据集）
+            href:  manual/data/favorites.md
+      - name:  项目
+        href:  manual/project.md 
+        items:
+          - name:  算法任务式
+            href:  manual/project/task.md
+          - name:  Jupyter NoteBook
+            href:  manual/project/notebook.md
+          - name:  图形化拖拽
+            href:  manual/project/drag.md
+          - name:  自动化
+            href:  manual/project/auto.md
+          - name:  公开项目
+            href:  manual/project/public.md
+          - name:  我的收藏（项目）
+            href:  manual/project/favorites.md       
+  - name:  服务
+    items:
+      - name:  接口文档
+        href:  service/image-api.md
+      - name:  图像分类
+        href:  service/image-api.md
+      - name:  目标检测
+        href:  service/od-api.md
+      - name:  文本分类
+        href:  service/text-api.md
+      - name:  机器学习
+        href:  service/ml-api.md
+  - name:  示例
+    items:
+      - name:  示例
+        href:  sample/sample.md
+  - name: 常见问题
+    items:
+      - name:  常见问题
+        href:  faq/faq.md
+    

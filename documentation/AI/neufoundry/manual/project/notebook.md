@@ -20,7 +20,7 @@
 
 在项目详情页，点击“进入项目”，启动Jupyter NoteBook
 
-![启动1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.2/4.png"启动1")
+![启动1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.2/4.png "启动1")
 
 等待一段时间，系统后台启动相应NoteBook服务之后，可通过点击进入项目，进到Jupyter NoteBook中，
 

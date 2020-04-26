@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63508a41-a0b5-432e-80ab-9cd23cc04296" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/glossary.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/glossary.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/prepare.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/prepare.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/process.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/process.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/faq/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/faq/faq.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/introduction/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/introduction/overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/dashboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/dashboard.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/favorites.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/favorites.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/public.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/public.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag1.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag2.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag3.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata1.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata2.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata3.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/drag.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/drag.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/favorites.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/favorites.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/notebook.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/notebook.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/public.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/public.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/auto.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/auto.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/neufoundry/dataset/sample.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/neufoundry/dataset/sample.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/auto.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/auto.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/task.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/AI/neufoundry/sample/sample.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/neufoundry/sample/sample.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/AI/NeuFoundry/TOC.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/AI/neufoundry/TOC.yml" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/AI/neufoundry/TOC.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,9 +78,124 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-444467918">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="51" />
+          <entry key="YAML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="15" />
+          <entry key="PLAIN_TEXT" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.checkout.remote" value="1" />
+          <entry key="git.branch.create.new" value="3" />
+          <entry key="git.branch.delete.local" value="2" />
+          <entry key="git.branch.merge" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/auto.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/TOC.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/drag.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/favorites.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/notebook.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/public.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/favorites.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -120,20 +211,35 @@
       <find>系统返回</find>
       <find>ARGUMENT_NOT_SUPPORT</find>
       <find>进入京东云控制台</find>
+      <find>storage.jd.com</find>
+      <find>8.1.4/8.1.4.3/8.1.4.3.1/1.png</find>
+      <find>8.1.4/8.1.4.3/8.1.4.3.5/3.png</find>
+      <find>(../../../../image</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>(../../../../../image</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/documentation/AI</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project</dir>
+      <dir>$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data</dir>
+      <dir>$PROJECT_DIR$/documentation/AI/NeuFoundry</dir>
+      <dir>$PROJECT_DIR$/documentation/AI/neufoundry/manual/data</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="edit" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/API-Reference/Error-Code.md" />
-        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/API-Reference/Error-Code.md" />
-        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/API-Reference/Error-Code.md" />
-        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/API-Reference/Error-Code.md" />
-        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Automatic-Speech-Recognition/Operation-Guide/Use-Sdk.md" />
-        <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Bank-Card-Number-Recognize/Operation-Guide/Use-Sdk" />
         <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Commentary-Extraction/Operation-Guide/Use-Sdk.md" />
         <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Anti-Spoofing/Operation-Guide/Use-Sdk.md" />
         <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Compare/Operation-Guide/Use-Sdk.md" />
@@ -179,6 +285,12 @@
         <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/Operation-Guide/Authentication.md" />
         <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Authentication.md" />
         <option value="$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/call-methods.md" />
+        <option value="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/public.md" />
+        <option value="$PROJECT_DIR$/documentation/AI/neufoundry/TOC.yml" />
+        <option value="$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/task.md" />
+        <option value="$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/readme.md" />
+        <option value="$PROJECT_DIR$/documentation/AI/NeuFoundry/TOC.yml" />
+        <option value="$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/readme.md" />
       </list>
     </option>
   </component>
@@ -189,12 +301,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1112" />
+    <option name="x" value="-26" />
+    <option name="y" value="-1005" />
+    <option name="width" value="1680" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -202,17 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="JD-AI-docs.cn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,14 +381,60 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="JD-AI-docs.cn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="JD-AI-docs.cn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JD-AI-docs.cn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JD-AI-docs.cn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="neufoundry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JD-AI-docs.cn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="neufoundry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="quickstart" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JD-AI-docs.cn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CN-AM-Repo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="documentation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="neufoundry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="SearchEverywhereHistoryKey" value="-&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556508983377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587898296506" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -295,278 +444,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/documentation/AI/neufoundry" />
+      <recent name="$PROJECT_DIR$/documentation/AI/neufoundry/quickstart" />
+      <recent name="$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart" />
+      <recent name="$PROJECT_DIR$/documentation/AI/NeuFoundry" />
+      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Automatic-Speech-Recognition\Operation-Guide" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\aaa\CN-AM-Repo\image\AI-and-Machine-Learning" />
       <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Face-Search\API-Reference" />
       <recent name="E:\workspace\aaa\CN-AM-Repo\image\AI-and-Machine-Learning\Face-Compare" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Automatic-Speech-Recognition\Operation-Guide" />
-      <recent name="E:\workspace\aaa\CN-AM-Repo\image\AI-and-Machine-Learning\lexer" />
-      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Value-Added-Tax-Invoice-Recognize" />
-      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Face-Search" />
-      <recent name="E:\workspace\aaa\CN-AM-Repo\documentation\AI-and-Machine-Learning\Face-Search\API-Reference" />
-    </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/TOC.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/glossary.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/prepare.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/process.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/basic/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/dataset/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/dataset/sample.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/faq/faq.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/faq/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/introduction/overview.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/introduction/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/dashboard.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/favorites.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/public.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag1.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag2.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/tag3.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata1.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata2.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/data/updata3.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/auto.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/drag.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/favorites.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/notebook.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/public.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/project/task.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/manual/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/auto.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/demo.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/quickstart/overview.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/sample/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/sample/sample.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/service/image-api.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/service/ml-api.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/service/od-api.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/NeuFoundry/service/text-api.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image - 快捷方式.lnk</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.1/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.2/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.2/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.2/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.2/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.2/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.3/8.1.3.2/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.1/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.1/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.2/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.2/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.2/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.1/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.1/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.1/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.1/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.1/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.2/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.2/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.2/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.2/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.2/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.3/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.3/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.3/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.3/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.2/8.1.4.2.2.3/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.3/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.4/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.4/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.1/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.2/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.2/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.2/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.2/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.3/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.3/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.3/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.3/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.3/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/10.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/11.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/12.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/13.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/image/titanic-机器学习-分类-训练集-未标注.csv</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/TOC.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/basic/glossary.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/basic/prepare.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/basic/process.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/basic/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/dataset/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/dataset/sample.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/faq/faq.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/faq/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/introduction/overview.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/introduction/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/dashboard.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/favorites.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/public.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/tag1.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/tag2.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/tag3.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/updata1.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/updata2.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/updata3.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/project.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/auto.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/drag.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/favorites.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/notebook.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/public.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/task.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/manual/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/auto.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/demo.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/overview.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/sample/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/sample/sample.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/service/image-api.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/service/ml-api.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/service/od-api.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/AI/neufoundry/service/text-api.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -597,6 +486,8 @@
       <workItem from="1555900476746" duration="40974000" />
       <workItem from="1556433510056" duration="20931000" />
       <workItem from="1587741121132" duration="769000" />
+      <workItem from="1587743205158" duration="2021000" />
+      <workItem from="1587791119949" duration="4813000" />
     </task>
     <task id="LOCAL-00001" summary="通用文字识别api文档完成">
       <created>1554951317888</created>
@@ -801,11 +692,32 @@
       <option name="project" value="LOCAL" />
       <updated>1556508925624</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix neufoundry doc">
+      <created>1587743424238</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1587743424238</updated>
+    </task>
+    <task id="LOCAL-00031" summary="neufoundry名称有首字母大写改为小写">
+      <created>1587895270986</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1587895270986</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix neufoundry doc">
+      <created>1587898003793</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1587898003793</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131614000" />
+    <option name="totallyTimeSpent" value="138448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,22 +729,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1112" extended-state="6" />
+    <frame x="-26" y="-1005" width="1680" height="961" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21671991" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25396827" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Duplication Code Results" />
-      <window_info anchor="bottom" id="风险组件扫描" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49932975" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4966488" weight="0.22434017" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.522118" side_tool="true" visible="true" weight="0.22367102" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49932975" weight="0.7647754" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.5934066" weight="0.024822695" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.4065934" side_tool="true" weight="0.40543735" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.47788203" weight="0.24926686" />
@@ -841,7 +750,11 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49932975" weight="0.32991204" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49865952" visible="true" weight="0.20674486" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49865952" weight="0.20674486" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="bottom" id="Duplication Code Results" order="13" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="bottom" id="风险组件扫描" order="15" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -856,12 +769,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="行驶证识别已完成" />
-    <MESSAGE value="人脸对比已完成" />
     <MESSAGE value="人脸活体检测已完成" />
     <MESSAGE value="人脸识别与属性分析已完成" />
     <MESSAGE value="人体检测已完成" />
@@ -885,51 +806,11 @@
     <MESSAGE value="增加网关系统级错误码" />
     <MESSAGE value="增加sdk的“获取说明”和“调用方式”" />
     <MESSAGE value="修改AKSK" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改AKSK" />
+    <MESSAGE value="neufoundry名称有首字母大写改为小写" />
+    <MESSAGE value="fix neufoundry doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix neufoundry doc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Image-Antiporn-Recognize/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Short-Text-Similarity/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Snap-Shop/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Specific-Subject-Face-Recognition/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Syntactic-Parsing/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-Categorization/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Text-to-Speech/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Value-Added-Tax-Invoice-Recognize/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/TOC.yml" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Use-Sdk.md" />
-    <entry file="file://$PROJECT_DIR$/image/应用场景1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/AI-and-Machine-Learning/AK管理.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Automatic-Speech-Recognition/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Bank-Card-Number-Recognize/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Commentary-Extraction/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Anti-Spoofing/Operation-Guide/Signature-Algorithm.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Anti-Spoofing/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Compare/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Detect-and-Analysis/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Face-Search/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Food-Recognition/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/General-Image-OCR/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Human-Detection/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Identity-Card-Recognize/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Image-Antiporn-Recognize/Operation-Guide/Authentication.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Pose-Estimation/Operation-Guide/Authentication.md" />
     <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/Operation-Guide/Use-Sdk.md" />
     <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Selfie-Segmentation/Operation-Guide/Authentication.md" />
     <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Sentiment-Classifier/Operation-Guide/Authentication.md" />
@@ -943,6 +824,323 @@
     <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Vehicle-License-Recognize/Operation-Guide/Authentication.md" />
     <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/Authentication.md" />
     <entry file="file://$PROJECT_DIR$/documentation/AI-and-Machine-Learning/Lexical-Analysis/Operation-Guide/call-methods.md" />
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="97" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/tag1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/tag2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/tag3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/updata1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/updata2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/updata3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/dashboard.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/sample/sample.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/auto.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/demo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/overview.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/sample/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/public.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/basic/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/basic/process.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/basic/prepare.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/basic/glossary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/dataset/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/dataset/sample.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/faq/faq.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/faq/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/introduction/overview.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/introduction/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/service/image-api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/service/ml-api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/service/od-api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/service/text-api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="84">
+            <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/public.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/data/favorites.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/drag.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/favorites.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/notebook.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/quickstart/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/manual/project/auto.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/AI/neufoundry/TOC.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

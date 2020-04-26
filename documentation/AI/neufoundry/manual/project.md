@@ -6,13 +6,13 @@
   
   点击以下链接，查看详细操作手册
   
-  --[算法任务式](./project/task.html "算法任务式")
+  --[算法任务式](./project/task.html)
   
-  --[Jupyter NoteBook](./project/notebook.html "jupyter notebook")
+  --[Jupyter NoteBook](./project/notebook.html)
   
-  --[图形化拖拽](./project/drag.html "图形化拖拽")
+  --[图形化拖拽](./project/drag.html)
   
-  --[自动化](./project/auto.html "自动化")
+  --[自动化](./project/auto.html)
   
   
   ---

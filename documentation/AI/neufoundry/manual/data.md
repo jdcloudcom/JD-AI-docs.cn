@@ -4,11 +4,11 @@
 NeuFoundry已预置了一部分行业数据集及部分零售场景特色的公开数据集便于用户直接使用，用户也可以直接上传自己使用的数据集。
 已公开的数据集在“数据——公开数据集”中，个人上传的数据集在“数据——我的数据集”中
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/1.png)
+![我的数据集列表](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/1.png)
 
 并可根据数据集类型（图片、文本、视频、音频）及标注情况（原始数据）进行相应筛选。
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/2.png)
+![数据集类型筛选](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/2.png)
 
 ---
 

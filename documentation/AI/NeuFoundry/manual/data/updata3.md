@@ -6,21 +6,21 @@
 
 在数据集详情页下方，标注结果一栏点击“上传新的标注结果”
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/1.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/1.png)
 
 选择需要上传的标注类型
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/2.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/2.png)
 
 选择上传标注文件，通过拖拽或者点击上传方式
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/3.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/3.png)
 
 **第二步，解析标注文件**
 
 解析标注结果完成后，在标注结果一栏中显示统计结果
 
-![](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/4.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.2/8.1.4.2.1/8.1.4.2.1.3/4.png)
 
 ---
 

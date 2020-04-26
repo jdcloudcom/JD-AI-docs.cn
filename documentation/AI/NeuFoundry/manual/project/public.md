@@ -4,15 +4,15 @@
 
 **A），将自己项目公开**
 
-![公开1](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/1.png "公开1")
+![公开1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/1.png "公开1")
 
 点击项目概要信息右上角的“设置为公开”，如下图
 
-![公开2](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/2.png"公开2")
+![公开2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/2.png"公开2")
 
 会弹出公开确认窗口
 
-![公开3](../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/3.png "公开3")
+![公开3](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/3.png "公开3")
 
 确认公开之后，会有专门的管理员进行审核，审核通过后，平台上所有人可以看到该项目
 

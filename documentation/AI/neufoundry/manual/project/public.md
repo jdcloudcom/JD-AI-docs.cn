@@ -8,7 +8,7 @@
 
 点击项目概要信息右上角的“设置为公开”，如下图
 
-![公开2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/2.png"公开2")
+![公开2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.5/2.png "公开2")
 
 会弹出公开确认窗口
 

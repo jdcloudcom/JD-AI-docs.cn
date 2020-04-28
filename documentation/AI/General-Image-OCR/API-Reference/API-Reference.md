@@ -12,11 +12,7 @@
 > 1. 图片格式：jpg、jpeg、png
 > 2. 图片大小：小于1M 
 
-### 4. 接口使用：  
-
-
-公测期间用户可以免费（0元）进行测试，根据[购买流程](../Pricing/Purchase-Process.md)下单后，即可开始体验业内领先的人工智能API服务。公测期间服务具有调用量、QPS限制，如需更高性能的API服务，请联系客服扩容购买。
-
+### 3. 接口使用：
 
 在获得使用权限后，您可使用已经封装好的SDK进行相应开发，整体流程详见[调用方法](../Operation-Guide/call-methods.md)  。
 
@@ -27,7 +23,7 @@
 https://aiapi.jdcloud.com/jdai/ocr_universal
 ```
 ### 2. 请求方式：  
-https  `post`aiapi.jdcloud.com/jdai/ocr_universal
+https  `post` aiapi.jdcloud.com/jdai/ocr_universal
 ### 3. 请求参数    
 
 #### （1）header请求参数

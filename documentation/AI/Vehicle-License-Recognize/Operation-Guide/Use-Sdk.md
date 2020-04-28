@@ -1,7 +1,7 @@
 # **sdk的使用方法**
 
 ## 获取说明 
-根据[购买流程](../Pricing/Purchase-Process.md)，0元购买“行驶证识别”产品后，再次进入京东智联云“行驶证识别”控制台页面，点击[“下载SDK”](https://jdai.s3.cn-north-1.jdcloud-oss.com/aisdk/sdk/ai-java-sdk.zip)，进入API调试页面下载SDK。
+根据[购买流程](../Pricing/Purchase-Process.md)，购买“行驶证识别”产品后，再次进入京东智联云“行驶证识别”控制台页面，点击[“下载SDK”](https://jdai.s3.cn-north-1.jdcloud-oss.com/aisdk/sdk/ai-java-sdk.zip)，进入API调试页面下载SDK。
 
 ## 调用方式
 

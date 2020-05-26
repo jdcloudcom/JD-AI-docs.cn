@@ -17,7 +17,7 @@
 
 ## 二、请求说明
 
-[创建商品接口](../../../../API-Reference/create-product.md)
+[创建商品接口](../API-Reference/create-product.md)
 
 ### [商品图入库接口](add-image.md)
 ### [入库状态查询接口](task-status.md)

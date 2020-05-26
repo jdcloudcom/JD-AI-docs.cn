@@ -31,5 +31,20 @@ items:
   items:
   - name:  接口文档
     href:  Reference/API-Reference.md
+    items:
+      - name: 创建商品接口
+        href: Reference/create-product.md
+      - name: 商品图入库接口
+        href: Reference/add-image.md
+      - name: 入库状态查询接口
+        href: Reference/task-status.md
+      - name: 商品图片搜索接口
+        href: Reference/product-search.md
+      - name: 商品图片信息查询
+        href: Reference/image-info.md
+      - name: 商品图片删除
+        href: Reference/delete-image.md
+      - name: 商品删除
+        href: Reference/delete-product.md
   - name:  错误码
     href:  Reference/Error-Code.md

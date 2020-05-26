@@ -17,14 +17,13 @@
 
 ## 二、请求说明
 
-[创建商品接口](../API-Reference/create-product.md)
-
-### [商品图入库接口](add-image.md)
-### [入库状态查询接口](task-status.md)
-### [商品图片搜索接口](product-search.md)
-### [商品图片信息查询](image-info.md)
-### [商品图片删除](delete-image.md)
-### [商品删除](delete-product.md)
+### [创建商品接口](../Reference/create-product.md)
+### [商品图入库接口](../Reference/add-image.md)
+### [入库状态查询接口](../Reference/task-status.md)
+### [商品图片搜索接口](../Reference/product-search.md)
+### [商品图片信息查询](../Reference/image-info.md)
+### [商品图片删除](../Reference/delete-image.md)
+### [商品删除](../Reference/delete-product.md)
 
 ## 三、错误码
 

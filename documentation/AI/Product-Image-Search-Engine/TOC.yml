@@ -30,7 +30,7 @@ items:
 - name: 接口文档
   items:
   - name:  接口文档
-    href:  Reference/API-Reference.md
+    href:  Reference/api-reference.md
     items:
       - name: 创建商品接口
         href: Reference/create-product.md

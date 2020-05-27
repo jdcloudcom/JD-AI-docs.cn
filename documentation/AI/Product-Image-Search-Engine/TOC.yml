@@ -30,21 +30,21 @@ items:
 - name: 接口文档
   items:
   - name:  接口文档
-    href:  Reference/api-reference.md
+    href:  reference/api-reference.md
     items:
       - name: 创建商品接口
-        href: Reference/create-product.md
+        href: reference/create-product.md
       - name: 商品图入库接口
-        href: Reference/add-image.md
+        href: reference/add-image.md
       - name: 入库状态查询接口
-        href: Reference/task-status.md
+        href: reference/task-status.md
       - name: 商品图片搜索接口
-        href: Reference/product-search.md
+        href: reference/product-search.md
       - name: 商品图片信息查询
-        href: Reference/image-info.md
+        href: reference/image-info.md
       - name: 商品图片删除
-        href: Reference/delete-image.md
+        href: reference/delete-image.md
       - name: 商品删除
-        href: Reference/delete-product.md
+        href: reference/delete-product.md
   - name:  错误码
-    href:  Reference/Error-Code.md
+    href:  reference/Error-Code.md

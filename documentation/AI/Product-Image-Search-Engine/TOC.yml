@@ -29,7 +29,7 @@ items:
       href: Operation-Guide/Use-Sdk.md
 - name: 接口文档
   items:
-  - name:  接口文档
+  - name:  接口概述
     href:  reference/api-reference.md
     items:
       - name: 创建商品接口

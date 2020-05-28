@@ -29,22 +29,21 @@ items:
       href: Operation-Guide/Use-Sdk.md
 - name: 接口文档
   items:
-  - name:  接口概述
-    href:  reference/api-reference.md
-    items:
-      - name: 创建商品接口
-        href: reference/create-product.md
-      - name: 商品图入库接口
-        href: reference/add-image.md
-      - name: 入库状态查询接口
-        href: reference/task-status.md
-      - name: 商品图片搜索接口
-        href: reference/product-search.md
-      - name: 商品图片信息查询
-        href: reference/image-info.md
-      - name: 商品图片删除
-        href: reference/delete-image.md
-      - name: 商品删除
-        href: reference/delete-product.md
+    - name:  接口概述
+      href:  reference/api-reference.md
+    - name: 创建商品接口
+      href: reference/create-product.md
+    - name: 商品图入库接口
+      href: reference/add-image.md
+    - name: 入库状态查询接口
+      href: reference/task-status.md
+    - name: 商品图片搜索接口
+      href: reference/product-search.md
+    - name: 商品图片信息查询
+      href: reference/image-info.md
+    - name: 商品图片删除
+      href: reference/delete-image.md
+    - name: 商品删除
+      href: reference/delete-product.md
   - name:  错误码
     href:  reference/Error-Code.md

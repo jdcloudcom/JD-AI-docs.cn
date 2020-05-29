@@ -29,7 +29,21 @@ items:
       href: Operation-Guide/Use-Sdk.md
 - name: 接口文档
   items:
-  - name:  接口文档
-    href:  API-Reference/API-Reference.md
-  - name:  错误码
-    href:  API-Reference/Error-Code.md
+    - name:  接口概述
+      href:  API-Reference/API-Reference.md
+    - name:  图片入库请求
+      href:  API-Reference/insert_data.md
+    - name:  任务状态查询请求
+      href:  API-Reference/fetch_task_status.md
+    - name:  图片搜索请求
+      href:  API-Reference/search.md
+    - name:  库列表查询请求
+      href:  API-Reference/list_collection.md
+    - name:  图片删除请求
+      href:  API-Reference/delete_image.md
+    - name:  图片信息更新请求
+      href:  API-Reference/update_infos.md
+    - name:  图片信息查询请求
+      href:  API-Reference/fetch_infos.md
+    - name:  错误码
+      href:  API-Reference/Error-Code.md

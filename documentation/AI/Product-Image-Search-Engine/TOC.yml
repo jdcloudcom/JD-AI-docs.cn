@@ -29,8 +29,8 @@ items:
       href: Operation-Guide/Use-Sdk.md
 - name: 接口文档
   items:
-    - name:  接口概述
-      href:  reference/api-reference.md
+    - name: 接口概述
+      href: reference/api-reference.md
     - name: 创建商品接口
       href: reference/create-product.md
     - name: 商品图入库接口
@@ -45,5 +45,5 @@ items:
       href: reference/delete-image.md
     - name: 商品删除
       href: reference/delete-product.md
-  - name:  错误码
-    href:  reference/Error-Code.md
+    - name: 错误码
+      href: reference/Error-Code.md

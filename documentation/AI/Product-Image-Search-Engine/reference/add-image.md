@@ -3,8 +3,8 @@
 #### 1. 描述
 
 商品图入库接口，支持用户单个图片入库和批量图片入库操作。对于单个图片入库，用户可提供URL和Base64编码格式图片作为参数；
-对于批量图片入库，用户需提供URL格式图片作为参数。商品图片入库请求提交后，即创建一个异步入库任务，并返回任务ID。
-
+对于批量图片入库，用户需提供URL格式图片作为参数。商品图片入库请求提交后，即创建一个异步入库任务，并返回任务ID。<br>
+图片及接口的通用信息说明，详见 [服务概述](api-reference.md)
 
 #### 2. 接口地址 ：
 
@@ -23,6 +23,7 @@ https `post` aiapi.jdcloud.com/jdai/product_image_add
 > * 图片大小：小于 3.75M
 > * 图片类型：jpg, jpeg, png
 > * 批量入库图片URL数量最多为200。
+> * 每个商品最多上传30张图片。
 
 #### 5. 请求参数
 
@@ -52,8 +53,7 @@ image_list参数说明
 product_id | string | 是 | 65337027695 | 商品唯一标识，即SKU
 image_content | string | 是 | 【略】 | 图片内容，URL或Base64编码
 image_id | string | 是 | 1002039492343.jpg | 图片的唯一标识，可以为图片名称，不可重复
-image_info | string | 否 | 【略】| 用于图片描述，最多支持256个字符输入
-
+image_info | string | 是 | 【略】| 用于图片描述，最多支持256个字符输入
 
 #### 6. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
@@ -86,8 +86,8 @@ failed_list 参数信息
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-image_id | string | "DUPLICATE_IMAGE" | 图片名
-message | string | "REPEAT_IMAGE_NAME_IN_DB" | 即时检查的失败信息
+image_id | string | "1002039492343.jpg" | 图片名
+message | array | ["REPEAT_IMAGE_NAME_IN_DB"] | 即时检查的失败信息的数组
 
 ##### 2、返回示例
 

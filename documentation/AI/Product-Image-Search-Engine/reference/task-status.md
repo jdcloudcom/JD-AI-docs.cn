@@ -2,7 +2,8 @@
 
 #### 1. 描述
 
-入库状态查询接口，根据商品图片入库返回的异步任务ID，查询图片入库状态，仅支持单个任务查询。
+入库状态查询接口，根据商品图片入库返回的异步任务ID，查询图片入库状态，仅支持单个任务查询。<br>
+图片及接口的通用信息说明，详见 [服务概述](api-reference.md)
 
 
 #### 2. 接口地址 ：
@@ -60,8 +61,9 @@ result | object | {...} | 查询结果
 code| int | 0 | 参照概述-业务错误码
 message | string | "SUCCESS" | 参照概述-业务错误信息
 task_status | string | "FINISHED" | 任务状态，有"PROCESSING", "FINISHED"两种。其中FINISHED仅表示任务处理完成，各图片是否入库成功需要查看succeeded_list和failed_list
-succeeded_list | array | [...] | 返回入库成功的图片名列表，**仅当status_code为0时存在**
-failed_list | array | [...] | 返回入库失败的图片列表，**仅当status_code为0时存在**
+succeeded_list | array | [...] | 返回入库成功的图片名列表
+failed_list | array | [...] | 返回入库失败的图片列表
+pending_list | array | [...] | 等待处理的图片列表
 
 succeeded_list 参数说明
 
@@ -78,6 +80,13 @@ product_id | string | 65337027695 | 入库失败的图片所属商品的ID（SKU
 image_id | string | 1002039492343.jpg | 入库失败的图片的ID
 message | string | "NO_AVAILABLE_FEATURE" | 入库失败的原因
 
+pending_list 参数说明
+
+名称 | 类型 | 示例值 | 描述
+------|-----|-----|-----
+product_id | string | 65337027695 | 等待处理的图片所属商品的ID（SKU）
+image_id | string | 1002039492343.jpg | 等待处理的图片的ID
+
 ##### 2、返回示例
 
 ```JSON
@@ -89,12 +98,24 @@ message | string | "NO_AVAILABLE_FEATURE" | 入库失败的原因
   "msg": "查询成功",
   "result": {
       "code": 0,
-      "failed_list": [],
+      "failed_list": [
+            {
+                "image_id": "73a94fe133de137.jpg",
+                "product_id": "102340324",
+                "message": "DUPLICATE_IMAGE"
+            }
+      ],
       "message": "SUCCESS",
       "pending_list": [],
       "succeeded_list": [
-        "1001/XX小店|102340325|35e94ca3e9d9fdf9.jpg",
-        "1001/XX小店|102340326|a0906237d2cd30ad.jpg"
+            {
+                "image_id": "35e94ca3e9d9fdf9.jpg",
+                "product_id": "102340325"
+            },
+            {
+                "image_id": "a0906237d2cd30ad.jpg",
+                "product_id": "102340326"
+            }
       ],
       "task_status": "FINISHED"
   }

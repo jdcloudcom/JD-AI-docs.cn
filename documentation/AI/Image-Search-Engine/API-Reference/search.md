@@ -1,4 +1,6 @@
 ### 图片搜索请求
+图片搜索请求用于搜索指定库中是否存在相同、相似的图片。<br>
+图片及接口的通用说明详见 [服务概述](API-Reference.md)
 
 #### 1. 接口地址 ：
 
@@ -55,14 +57,15 @@ result | object | {...} | 查询结果
 status_code| int | 0 | 参照概述-业务错误码
 message | string | "Interface" | 参照概述-业务错误信息
 search_result | array | [...] | 搜索结果
-
-search_result参数信息
+   
+    
+search_result参数信息  
 
 名称 | 类型 | 示例值 | 描述
-------|-----|-----|-----
-image_name | string | "Milk_salt_soda_v1" | 召回图片所属集合id,入库时提供
-similarity | double | 0.92323356 | 召回图片和请求图的相似度；当为1时，即两张图为完全一样的图片；
-info | string | "{\"Ingredients\":\"wheat flour, milkfat, edible salt\", \"price\":\"10.0\"}" | 召回图片所带json信息，仅在入库时附带了此信息时返回
+------|-----|-----|----- 
+image_name | string | "Milk_salt_soda_v1" | 召回图片所属集合id,入库时提供  
+similarity | double | 0.92323356 | 召回图片和请求图的相似度；当为1时，即两张图为完全一样的图片；  
+info | string | "{\"Ingredients\":\"wheat flour, milkfat, edible salt\", \"price\":\"10.0\"}" | 召回图片所带json信息，仅在入库时附带了此信息时返回  
 
 #### 2、返回示例
 
@@ -80,10 +83,10 @@ info | string | "{\"Ingredients\":\"wheat flour, milkfat, edible salt\", \"price
       {
         "image_name":"Milk_salt_soda_v1",
         "similarity":0.92323356,
-        "info ":'{"Ingredients":"wheat flour, milkfat, edible salt", "price":"10.0"}'
+        "info ":"{\"Ingredients\":\"wheat flour, milkfat, edible salt\", \"price\":\"10.0\"}"
       },
       ……
     ]
-  }
+}
 }
 ```

@@ -1,4 +1,6 @@
 ### 库列表查询请求
+库列表查询请求接口用于查询用户目前创建的哪些图片库及对应的库中已入库的图片数量<br>
+图片及接口的通用说明详见 [服务概述](API-Reference.md)
 
 #### 1. 接口地址 ：
 
@@ -48,14 +50,14 @@ result | object | {...} | 查询结果
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
 status_code| int | 0 | 参照概述-业务错误码
-message | string | "SUCCESS" | 参照概述-业务错误信息
+message | string | "SUCCESS" | 参照概述-业务错误信息  
 collection_list | array | [...] | 用户拥有的库的信息列表
 
 collection_list 参数信息
 
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
-collection_name | string | "food" | 库名
+collection_name | string | "food" | 库名    
 indexed\_image_count | string | 100 | 已入库图片数
 
 #### 2、返回示例

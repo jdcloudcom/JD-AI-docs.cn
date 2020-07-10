@@ -1,4 +1,7 @@
 ### 图片入库请求
+图片入库请求是用于构建自己的图片库，该接口为异步接口，图片入库的状态可以通过接口返回的task_id查询接口 [任务状态查询请求](https://aidoc.jd.com/imageSearch/fetch_task_status.html) 获得<br> 
+图片及接口的通用说明详见 [服务概述](API-Reference.md)
+
 
 #### 1. 接口地址 ：
 
@@ -28,7 +31,8 @@ Authorization | string | 是 | JDCLOUD2-HMAC-SHA256Credential=access... | 签名
 collection_name | string | 是 | "food" | 库名，每个用户最多创建3个图片库
 docs| array| 是 | [...] | 入库图片列表
 
-docs参数信息
+docs参数信息  
+
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----

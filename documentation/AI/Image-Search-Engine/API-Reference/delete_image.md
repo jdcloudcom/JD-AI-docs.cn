@@ -1,4 +1,5 @@
 ### 图片删除请求
+图片删除请求用于指定删除库中的某个或者某几个图片。<br>图片及接口的通用说明详见 [服务概述](API-Reference.md)
 
 #### 1. 接口地址 ：
 
@@ -35,7 +36,7 @@ image_names参数信息
 
 名称 | 类型 | 必填 | 示例值 | 描述
 ------|-----|-----|-----|-----
-image_name| string| 是 | "Milk_salt_soda_v1" | 待查询图片名
+image_name| string| 是 | "Milk_salt_soda_v1" | 待删除图片名
 
 #### 4. 请求代码示例
 建议您使用我们提供的SDK进行调用，SDK获取及调用方式详见[sdk的使用方法](../Operation-Guide/Use-Sdk.md)
@@ -60,7 +61,7 @@ result | object | {...} | 查询结果
 名称 | 类型 | 示例值 | 描述
 ------|-----|-----|-----
 status_code| int | 0 | 参照概述-业务错误码
-message | string | "SUCCESS" | 参照概述-业务错误信息
+message | string | "SUCCESS" | 参照概述-业务错误信息  
 succeeded_list | array[string] | ["Milk_salt_soda_v1"] | 删除成功的图片名列表，**仅当status_code为0时存在**
 failed_list | array | [...] | 删除失败列表，**仅当status_code为0时存在**
 

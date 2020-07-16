@@ -94,33 +94,66 @@
 
 <table>
    <tr>
-      <th>业务错误码（status）</th>
-      <th>对应message说明</th>
-      <th>说明</th>
+      <td>业务错误码（status）</td>
+      <td>对应msg</td>
+      <td>说明</td>
    </tr>
    <tr>
-      <td>12002</td>
-      <td>"missing param"</td>
+      <td>1</td>
+      <td>NoRequiredFields</td>
       <td>参数缺失</td>
    </tr>
    <tr>
-      <td>12003</td>
-      <td>"image base64 is invalid"</td>
-      <td>解析参数错误</td>
-   </tr>
-	 <tr>
-      <td>13111</td>
-      <td>""image quality is bad""</td>
-      <td>图像尺寸或者质量不符合标准，当图像尺寸超过4096 * 4096或者小于48 * 48时会报该错误</td>
+      <td>2</td>
+      <td>ImageIsTooSmall</td>
+      <td>图片太小</td>
    </tr>
    <tr>
-      <td>13303</td>
-      <td>"time out"</td>
-      <td>超时错误，当服务端请求负载过多会报该错误</td>
+      <td>3</td>
+      <td>ImageIsTooLarge</td>
+      <td>图片太大</td>
+   </tr>
+   <tr>
+      <td>4</td>
+      <td>Base64IsInvalid</td>
+      <td>图片 Base64 不合法</td>
+   </tr>
+   <tr>
+      <td>5</td>
+      <td>Base64IsTooLarge</td>
+      <td>图片 Base64 大小超过 2MB</td>
+   </tr>
+   <tr>
+      <td>10</td>
+      <td>NoFaceDetected</td>
+      <td>没有检测到人脸</td>
+   </tr>
+   <tr>
+      <td>11</td>
+      <td>InvalidFaceQuality</td>
+      <td>人脸不够清晰，质量分小于阈值</td>
+   </tr>
+   <tr>
+      <td>12</td>
+      <td>InvalidFacePosture</td>
+      <td>人脸角度太大，大于阈值</td>
+   </tr>
+   <tr>
+      <td>13</td>
+      <td>InvalidFaceAntifake</td>
+      <td>人脸防伪分值大于阈值</td>
+   </tr>
+   <tr>
+      <td>31</td>
+      <td>RequestBodyIsNotJson</td>
+      <td>请求的 body 需要 json 字符串</td>
+   </tr>
+   <tr>
+      <td>41</td>
+      <td>TimeoutException</td>
+      <td>处理超时（> 10秒的处理立即返回）</td>
    </tr>
 </table>
-
-
 
 ### 3. 网关系统级错误码
 

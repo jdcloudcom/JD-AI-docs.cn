@@ -14,6 +14,8 @@
 基于检测、分类和特征表示能力，支持用户上传图片及相关信息后自动提取图片特征并构建索引，
 维护商品和图片信息，支持索引构建完成后进行图片搜索，图片及相关信息的管理。提供在商品图片识别和搜索的专业能力。
 
+#### 4. 服务流程
+![整体流程介绍](../../../../image/AI-and-Machine-Learning/Product-Search-Engine/product-search.png)
 
 ## 二、请求说明
 
@@ -25,7 +27,21 @@
 ### [商品图片删除](../reference/delete-image.md)
 ### [商品删除](eference/delete-product.md)
 
-## 三、错误码
+### 三、接口数据要求
+* 图片格式：Base64 或 url，URL仅支持JFS格式
+* 图片像素：最小 201 * 201，最大 4096 * 4096
+* 图片大小：单张图片小于 3.75M
+* 图片类型：jpg, jpeg, png
+* 批量接口单次最大处理量为200
+* 每个商品最多上传30张图片
+
+### 四、注意事项
+1. <font color=red>商品图片搜索服务的接口调用次数及QPS是所有接口共享的，即所有接口调动次数总数不能超过限额。</font>
+1. 目前不支持jfs图片服务器以外的图片url作为入参。当有大规模数据入库时，为了防止带宽打满，可将图片上传至京东OSS，获得OSS链接后再批量传入。
+1. 网关对传输大小有限制，不可传输超过5M的内容；
+1. 目前每个用户仅支持建立1个商品库，每个库目前可以创建100000个商品，每个商品目前最多支持入库30张照片
+
+## 五、错误码
 
 ### 1.业务错误码
 
@@ -38,6 +54,8 @@
 1033 | "REPEAT_IMAGE_NAME_IN_PARAM" | 参数列表中存在重复的图片名
 2001 | "INVALID_PARAM_TOP_K" | 无效的top_k
 2006 | "BROKEN_BASE64_OR_URL" | 无效的base64或url
+2005 | "IMAGE_TOO_SMALL" | 图片尺寸过小（小于201*201）
+2007 | "IMAGE_TOO_LARGE" | 图片尺寸过大（大于4096*4096）
 2008 | "INVALID_DOCS" | 无效的入库数据
 2010 | "INVALID_COLLECTION_NAME" | 无效的库名
 2011 | "INVALID_IMAGE_INFO" | 无效的图片信息
@@ -61,12 +79,11 @@
 3016 | "IMAGE_NUM_EXCEED_TOTAL_LIMIT" | 批量图片数量超过限制
 3017 | "IMAGE_NUM_EXCEED_PER_PRODUCT_LIMIT" | 每个商品的图片量超过限制
 3018 | "INSERT_IMAGE_ERROR" | 图片入库异常
-3019 | "NO_INVALID_IMAGE" | 无合法的商品图片
-3020 | "INVALID_USER_ID" | 非法的用户ID
+3019 | "NO_VALID_IMAGE" | 无合法的商品图片
 3021 | "INVALID_TASK_ID" | 非法的入库任务ID
 3030 | "QUERY_TASK_STATUS_ERROR" | 查询入库任务状态异常
 3031 | "SEARCH_PRODUCT_IMAGE_ERROR" | 查询商品图片异常
-3031 | "DELETE_IMAGE_ERROR" | 删除商品图片异常
+3032 | "DELETE_IMAGE_ERROR" | 删除商品图片异常
 3033 | "QUERY_IMAGE_INFO_ERROR" | 查询商品图片信息异常
 3034 | "DELETE_COLLECTION_ERROR" | 删除商品库异常
 3040 | "INVALID_SEARCH_TOPK" | 非法的搜索返回数量
@@ -74,7 +91,7 @@
 3050 | "INVALID_IMAGE_ID_LIST" | 非法的图片ID列表
 3051 | "EMPTY_IMAGE_ID_LIST" | 空的图片ID列表
 3052 | "DUPLICATE_IMAGE_ID" | 重复的图片ID
-3053 | "NO_INVALID_IMAGE_ID" | 无合法的图片ID
+3053 | "NO_VALID_IMAGE_ID" | 无合法的图片ID
 3054 | "NOT_SUPPORT_IMAGE" | 不支持的图片格式
 3055 | "PRODUCT_NUM_EXCEED_LIMIT" | 商品数量超过限制
 3056 | "IMAGE_SIZE_EXCEED_LIMIT" | 图片大小超过限制

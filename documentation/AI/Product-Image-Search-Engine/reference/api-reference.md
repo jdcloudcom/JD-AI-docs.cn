@@ -25,7 +25,7 @@
 ### [商品图片搜索接口](../reference/product-search.md)
 ### [商品图片信息查询](../reference/image-info.md)
 ### [商品图片删除](../reference/delete-image.md)
-### [商品删除](eference/delete-product.md)
+### [商品删除](../reference/delete-product.md)
 
 ### 三、接口数据要求
 * 图片格式：Base64 或 url，URL仅支持JFS格式

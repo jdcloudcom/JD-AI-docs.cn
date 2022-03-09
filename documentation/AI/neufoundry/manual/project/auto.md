@@ -1,64 +1,59 @@
-# 自动化
+# 机器学习
 
-**第一步，创建项目**
+
+机器学习主要分为线性回归和分类两种模型类别，下面以线性回归建模过程为例进行介绍。
+
+第一步，创建项目
 
 在点击创建项目的页面中，填写必要的信息，如项目名称、项目简介等内容，同时在项目类型中选择“自动化”，如下图：
 
-![创建项目1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/1.png)
+**![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629885719(1).png](media/37f558c2301357518be5e22d6bfb9ae9.png)**
 
-在点击创建项目之后，进入实际的创建内容，首先，选择应用场景
+在点击创建项目之后，进入实际的创建内容，应用场景选择机器学习，如下图：
 
-![创建项目2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/2.png)
+![](media/2412ec8f5c03fc2242511ec89dba2a62.png)
 
-如选择图像分类，如下图：
+然后选择模型类别，选择线性回归，点击“下一步”，如下图：
 
-![创建项目3](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/3.png)
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629888926.png](media/960a3bc8ee9381547dc9b9b841340f79.png)
 
-之后，选择数据，从下拉菜单中选择数据集，如果没有数据集，可点击选择框中的“创建数据集”，去新建数据集
+选择样本数据集、评估指标、需要预测的变量和排除列信息，如下图：
 
-![创建项目4](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/4.png)
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629888996(1).png](media/2d0b4030807a68c54ccd0caef915aaf0.png)
 
-![创建项目5](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/5.png)
+鼠标悬浮右侧提示图标，可查看每个指标的具体介绍，如下图：
 
-点击下一步，对所要提交的信息进行确认，如下图：
+![](media/3d68d42287aa45e7b99c4af6bbdcb085.png)
 
-![创建项目6](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/6.png)
+根据需要选择填写信息，点击“下一步”，如下图：
 
-确认无误之后，点击"提交训练"即可提交自动化训练任务。
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629889311(1).png](media/05f4de256dcf15de3ab0e1c3db9e06ea.png)
 
-**第二步，查看训练任务和评估结果**
+进入信息确认页面，若确认无误，点击“提交训练”；若需要更改信息，支持点击“上一步”进行信息修改，如下图：
 
-训练任务提交之后，可以在项目的详情页，查看历史任务，以及任务的状态等信息，如下图：
+![](media/35dc32989258f85e437b1f32305fd7a2.png)
 
-![查看训练任务](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/7.png)
+第二步，查看训练任务和评估结果
 
-如果训练任务有成功的结果的话，会在项目评估结果中出现，如下图：
+训练任务提交之后，在项目的详情页，会显示历史任务，以及任务的状态等信息，如下图：
 
-![查看训练任务2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/8.png)
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629889540(1).png](media/1fbca7d3ad133b9709d529aa53d091bb.png)
 
-点击评估详情区域的下拉箭头，可展示更详细的评估内容，如列表每一个类别的准确率和错误图片等信息：
+点击训练中旁边的图标查看训练进度
 
-![查看评估结果](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/9.png)
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629889570(1).png](media/8c94d4d7a4e5222e026be2cd699d03fb.png)
 
-展开后下图：
+训练任务成功完成后，会在项目评估结果中出现，如下图：
 
-![查看评估结果2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/10.png)
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629958425(1).png](media/1fa68c7f877f9931d6e50e33484a4813.png)
 
-**第三步，服务发布**
+点击评估详情区域的下拉箭头，可展示更详细的评估内容。
 
-通过项目详情页，点击项目评估的项目操作"发布"，或者在历史任务中已完成任务后面发布，
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629958723(1).png](media/727fecd5b9862618c047e3d78a7e0cb2.png)
 
-![服务发布1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/11.png)
+展开如下图，列表中展示了训练结果的拟合曲线和特征重要度。
 
-点击发布之后，页面跳转至发布信息填写页
-
-![服务发布2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/12.png)
-
-填写服务名称以及自定义的接口地址之后，点击"服务发布"后即可提交服务发布请求，我们的管理员会尽快进行审核。
-
-![服务审核1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/8.1.4/8.1.4.3/8.1.4.3.4/13.png)
-
-通过审核后，服务状态会变成运行中，此时可通过接口调用来使用刚才训练完成的模型能力。
+![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629958458(1).png](media/801a8527ff6ab12317f46f910250619e.png)
 
 ---
 

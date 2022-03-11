@@ -6,9 +6,8 @@
 
 **![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630648148(1).png](media/a39b75190f4c8a0a87b9e54dbddc3c0c.png)**
 
-系统会提示该场景支持的文件类型，下拉选择需要标注的文件，点击“确定”，如下图：
+系统会提示该场景支持的文件类型，下拉选择需要标注的文件，点击“确定”。
 
-**![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630648211(1).png](media/c04fca0aa8bf303466fd94674527c92d.png)**
 
 第三步，进入标注操作页面
 

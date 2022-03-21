@@ -16,7 +16,6 @@
 
 ![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629337543(1).png](media/9f838c453936e97408c318952c6a3516.png)
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629337874(1).png](media/b0bf24a0405f93504b17bb6562aefdd4.png)
 
 第四步，查看标注结果和相关信息统计
 

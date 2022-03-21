@@ -342,7 +342,6 @@ A．图片
 1. CRF命名实体：txt格式文本文件，其中每一行是一个字及其所对应的标签（O,B-TIM,I-TIM,B-PER,I-PER,B-ORG,I-ORG,B-LOC,I-LOC），词语和标签之间由空格"
    "分隔。句子与句子用空行分隔。
 
-![](media/e8fa1aac22780fe993c166c2afabb43f.png)
 
 1. 机器学习和推荐系统：标准的结构化数据即可。
 

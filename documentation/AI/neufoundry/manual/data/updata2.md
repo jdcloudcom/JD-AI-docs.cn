@@ -191,7 +191,6 @@ A．图片
 
 ]
 
-![](media/ad8bf9bd2fbd814daed6e392c57d1bba.png)
 
 1. 文字识别：文字识别的标注格式文件支持json、xml格式(以json为主)，标注文件的文件名称必须按照wzsb-result.json来命名，文件内容遵循的层级关系主要包括如下：
 

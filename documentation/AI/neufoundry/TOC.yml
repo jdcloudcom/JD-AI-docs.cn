@@ -18,7 +18,7 @@ items:
       - name: 产品优势
         href: introduction/overview.md
   - name: 快速入门
-    href: quickstart/readme.md
+    href: quickstart/overview.md
     items:
       - name: 使用自动化构建模型
         href: quickstart/auto.md

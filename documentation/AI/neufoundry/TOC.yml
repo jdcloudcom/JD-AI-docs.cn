@@ -67,6 +67,16 @@ items:
             href:  manual/project/favorites.md       
   - name: 数据集要求及上传样例
     href:  dataset/sample.md 
+  - name: 接口文档
+    items:
+      - name: 图像分类接口文档
+        href: service/image-api.md 
+      - name: 机器学习接口文档
+        href: service/ml-api.md
+      - name: 目标检测接口文档
+        href: service/od-api.md
+      - name: 文本分类接口文档
+        href: service/text-api.md 
   - name: 常见问题
     href:  faq/faq.md
     

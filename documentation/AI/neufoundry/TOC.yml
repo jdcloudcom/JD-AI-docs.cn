@@ -23,7 +23,6 @@ items:
       - name: 使用自动化构建模型
         href: quickstart/auto.md
   - name: 产品使用指南
-    href: manual/readme.md
     items: 
       - name:  数据
         href: manual/dataset.md
@@ -76,8 +75,7 @@ items:
       - name: 目标检测接口文档
         href: service/od-api.md
       - name: 文本分类接口文档
-        href: service/text-api.md 
-        
+        href: service/text-api.md   
   - name: 常见问题
     href:  faq/faq.md
     

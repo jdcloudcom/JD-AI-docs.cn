@@ -24,6 +24,27 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;压缩包里的视频文件格式支持：MP4、AVI、3GP、WMV、MPG、FLV等
 
 
+**样例：** 
+
+1.文本分类样例文件：
+
+http://s3.cn-north-1.jcloudcs.com/neufoundry-oss-online/sample/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB.zip
+
+2.图像分类样例文件：
+
+http://s3.cn-north-1.jcloudcs.com/neufoundry-oss-online/sample/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB.zip
+
+3.目标检测样例文件：
+
+http://s3.cn-north-1.jcloudcs.com/neufoundry-oss-online/sample/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B.zip
+
+4.语音转文本样例文件：
+
+http://s3.cn-north-1.jcloudcs.com/neufoundry-oss-online/sample/%E9%9F%B3%E9%A2%91%E7%A4%BA%E4%BE%8B.zip
+
+5.视频分类样例文件：
+
+http://s3.cn-north-1.jcloudcs.com/neufoundry-oss-online/sample/%E8%A7%86%E9%A2%91%E7%A4%BA%E4%BE%8B.zip
 
 
 

@@ -9,23 +9,14 @@ items:
       - name: 准备工作
         href: basic/prepare.md
   - name: 产品介绍
-    href: introduction/readme.md
-    items:
-      - name: 产品概述
-        href: introduction/overview.md
-      - name: 产品架构
-        href: introduction/overview.md
-      - name: 产品优势
-        href: introduction/overview.md
+    href: introduction/overview.md
   - name: 快速入门
-    href: quickstart/overview.md
     items:
       - name: 使用自动化构建模型
-        href: quickstart/auto.md
+        href: quickstart/auto1.md
   - name: 产品使用指南
     items: 
       - name:  数据
-        href: manual/dataset.md
         items:
           - name:  数据管理功能
             href:  manual/data/updata1.md
@@ -49,8 +40,7 @@ items:
             href:  manual/data/favorites.md
       - name: 个人概览页
         href:  manual/dashboard.md  
-      - name:  项目
-        href:  manual/project.md 
+      - name:  项目 
         items:
           - name:  任务式建模
             href:  manual/project/task.md
@@ -75,8 +65,7 @@ items:
       - name: 目标检测接口文档
         href: service/od-api.md
       - name: 文本分类接口文档
-        href: service/text-api.md 
-        
+        href: service/text-api.md      
   - name: 常见问题
     href:  faq/faq.md
     

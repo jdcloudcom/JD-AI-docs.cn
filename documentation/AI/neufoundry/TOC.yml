@@ -18,16 +18,12 @@ items:
     items: 
       - name:  数据
         items:
-          - name:  数据管理功能
-            href:  manual/data/updata1.md
           - name:  原始数据上传
             href:  manual/data/updata1.md
           - name:  标注数据上传
             href:  manual/data/updata2.md
           - name:  标注文件上传
             href:  manual/data/updata3.md
-          - name:  数据标注功能
-            href:  manual/data/tag1.md
           - name:  文本分类标注
             href:  manual/data/tag1.md
           - name:  图像分类标注

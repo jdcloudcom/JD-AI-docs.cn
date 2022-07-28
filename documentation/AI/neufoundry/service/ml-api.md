@@ -6,7 +6,7 @@
 
 
 
-## 二、图片要求
+## 二、数据要求
 
 1. 单次请求最多不超过1000条数据，特征数据的每个值不超过512个字符。
 2. 传入的特征数据列要与训练时的列保持一致，包括特征列数量和特征列字段类型。
@@ -24,18 +24,7 @@
 
 ## 四、请求参数
 
-1.query请求参数
-
-   公共请求参数
-
-| 字段名称     | 必须 | 类型   | 示例值                         | 说明     |
-| ------------ | ---- | ------ | ------------------------------ | -------- |
-| neu_app_key | 是   | String | 90j3l329knb39204e3948204958n49c | 您的appkey，可在NeuHub买家中心控制台获取 |
-
-备注：
-    neu_app_key对应AppKey申请地址：http://neuhub.jd.com/user/baseInfo
-
-2.header请求参数
+1.header请求参数
 
    业务请求参数
 
@@ -43,7 +32,7 @@
 | ------------ | ---- | ------ | ------------------------------ | -------- |
 | Content-Type | 是   | String | application/json;charset=UTF-8 | JSON格式 |
 
-3.body请求参数
+2.body请求参数
 
    业务请求参数
 
@@ -57,8 +46,7 @@
 
 http post模型发布的url
 
-```js
-Content-Type:application/json;charset=UTF-8
+```json
 [
   [5,3,"Allen, Mr. William Henry","male",35,0,0,373450,8.05,"","S"],
   [6,3,"Moran, Mr. James","male","",0,0,330877,8.4583,"","Q"],
@@ -96,7 +84,7 @@ Content-Type:application/json;charset=UTF-8
 
 ## 七、返回示例
 
-```java
+```json
 {
     "code": 1000,
     "message": "request success",
@@ -132,3 +120,10 @@ Content-Type:application/json;charset=UTF-8
 | 2000             |  用户APPK错误      |
 | 1100             |  API返回消息不是200      |
 | 2100             | 网关内部异常      |
+
+
+---
+
+如果您对产品有使用或者其他方面任何问题，欢迎联系我们
+
+---

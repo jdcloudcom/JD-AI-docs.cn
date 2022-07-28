@@ -1,45 +1,79 @@
-# 拖拽式建模
+# 图形化拖拽
 
-第一步，创建项目
+**第一步，创建项目**
 
-在点击创建项目的页面中，填写必要的信息，如项目名称、项目简介等内容，同时在项目类型中选择“图形化拖拽”，点击“创建项目”完成创建。如下图：
+在点击创建项目的页面中，填写必要的信息，如项目名称、项目简介等内容，同时在项目类型中选择“图形化拖拽”，如下图：
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630032640(1).png](media/ffac8549c379d9e6f5720bb0eb55b56f.png)
+![创建图形化拖拽项目](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-025.png "创建图形化拖拽项目")
+ 
+**第二步，查看项目详情**
 
-第二步，查看项目详情
+在新建完成项目之后，自动转到项目详情页。
 
-在新建完成项目之后，自动转到项目详情页。因为此时还没有任何训练任务，所以在详情页的历史任务和在线服务均为空，点击“进入项目”，如下图：
+![查看项目详情](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-026.png "查看项目详情")
+ 
+因为此时还没有任何训练任务，所以在详情页的历史任务和在线服务均为空。
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630032724(1).png](media/41d8902513eb7355b6ebef6b448c0497.png)
+**第三步，进入项目**
 
-第三步，进入项目
+![进入到拖拽式交互界面中](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-027.png "进入到拖拽式交互界面中")
+ 
+项目整个区域分为左、中、右三部分，左侧为组件列表页，中间为操作区域，右侧为信息展示区域。
 
-项目整个区域分为左、中、右三部分，左侧为组件列表页，中间为操作区域，右侧为信息展示区域。如下图：
+工具组件分为了4大类：数据组件、算法组件、训练组件以及验证组件，在需要使用哪个组件的时候，从对应类别点开之后，可以看到详细的组件列表，如下图：
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630033118(1).png](media/667de5cd3d3a3d293f8e97cad994eb15.png)
+![查看组件的基本参数](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-028.png "查看组件的基本参数")
+ 
+将所有组件按照一定的逻辑链接起来之后，可组成类似如上图中中间部分的流程图。
 
-工具组件分为了4大类：数据组件、算法组件、训练组件以及验证组件，点开对应类别下拉列表，可以看到详细的组件列表。并且中间操作区域展示了模型训练示意流程，可根据示意流程组合需要的训练场景。如下图：
+备注：如果在拖动拖动过程中，不想使用哪一个组件，则可在该组件处，点击右键，选中弹出框的删除，即可将该组件从该流程图中删除。
+右侧部分为显示选中组件的基本参数信息，以及组件的描述信息，从基本参数信息中，可选择相应的内容，或者填写相应的内容。
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630033167(1).png](media/4e996a42644073b176f65ef845d9c4c5.png)
+**第四步，运行**
 
-将训练需要的组件从各类别组件选取后拖拽至操作区域，然后把所有组件按照一定的逻辑链接起来之后，可组成类似如上图中中间部分的流程图。如下图所示，右侧部分为显示选中组件的基本参数信息，以及组件的描述信息，从基本参数信息中，可选择相应的内容，或者填写相应的内容。
+在完成所有流程的设计，以及对应组件的参数配置之后，可点击操作区域的运行，对本次所拖拽的流程图内容进行模型训练。
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630033971(1).png](media/3d20007a74868fa914e37fc1be13e676.png)如果在拖动拖动过程中，不想使用哪一个组件，则可在该组件处，点击右键，选中弹出框的删除，即可将该组件从该流程图中删除。
+![运行模型训练任务](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-029.png "运行模型训练任务")
+ 
+所有组件的状态都会随着改变：
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630033880(1).png](media/1aa17de7db392c9994325c41f3b2c24b.png)
+![查看组件状态变化](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-030.png "查看组件状态变化")
+ 
+说明：不同的图标分别表示等待运行、运行中、运行完成等内容
 
-第四步，运行
+在运行中的组件可以点击右键查看“实时日志”和下载日志
 
-在完成所有流程的设计，以及对应组件的参数配置之后，可点击操作区域的“运行”，对本次所拖拽的流程图内容进行模型训练，所有组件的状态变为“运行中”。
+![查看实时日志](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-031.png "查看实时日志")
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630034058(1).png](media/c89114af104f5c913ef3d1162b0b2e43.png)
+![查看实时日志](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-032.png "查看实时日志")
+ 
+已经运行完成的组件节点点击右键可以查看到删除、查看日志和下载日志等操作。
+ 
+![右键功能](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-033.png "右键功能")
 
-第五步，查看训练状态
+![查看日志](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-034.png "查看日志")
+ 
+下面介绍几种常见的流程：
 
-训练成功后，操作区域上方显示“任务运行成功”。如下图：
+1)	文本分类
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1630034205(1).png](media/ba7ffe9e938b875eed0a2bae808739eb.png)
+![文本分类](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-035.png "文本分类")
+ 
+2)	图像分类
 
+![图像分类](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-036.png "图像分类")
+ 
+3)	目标检测
+
+![目标检测](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-037.png "目标检测")
+ 
+4)	机器学习（聚类）
+
+![机器学习（聚类）](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-038.png "机器学习（聚类）")
+ 
+5)	机器学习（分类和回归）
+ 
+![机器学习（分类和回归）](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-039.png "机器学习（分类和回归）")
 
 
 说明：不同的图标分别表示等待运行、运行中、运行完成等内容

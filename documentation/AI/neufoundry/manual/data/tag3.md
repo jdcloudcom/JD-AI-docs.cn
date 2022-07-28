@@ -1,30 +1,36 @@
 # 目标检测标注
 
-第一步，新建数据集并完成原始数据的上传，可参考[4.2.2]
+用户在创建数据集，上传完图像数据之后，可通过项目详情页进行查看数据，同时可进行图片框图数据标注。具体入口如下：
 
-第二步，点击“新建标注任务”，选择“新建标注类型-\>目标检测标注”，如下图：![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629273635(1).png](media/21c012e4c7b5f556b221eba76e7490e6.png)
+第一步，创建或进入框图标注
 
-第三步，进入标注操作页面
+如果是第一次使用图像框图标注，通过点击新建标注任务—》图像框图标注，进入标注页面。
 
-在目标检测标注页面，可以看到操作区左侧是待标注的图片，右侧是标签管理；默认从第一张图片开始标注，在左侧标出目标后，选择选择对应的目标标签，即可完成当前单个目标的标注。
-对该张图片标注完成之后，通过点击“下一页”，进行下一张图片的标注，系统会自动保存标注的内容。若已进行了标注工作，退出前，需点击“保存”后才可退出。如下图：
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-030.png) 
+ 
+如果需要基于之前到框图结果进行标注，则可以点击进入当前标注任务，如下图：
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629274845(1).png](media/84f93efc1c4de2a5b94642aed5983280.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-031.png) 
+ 
+或者在任务管理中，点击“标注”按钮对当前的任务进行标注。如下图：
+ 
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-032.png) 
 
-若在标注过程中出现了错标，可单击标注页面右上角的“操作”按钮，删除错标的目标框，重新标注。如下图：
+第二步，进入标注页面
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629275034(1).png](media/423f620d3067639d2e2310de00816d11.png)
+进入标注页面后，可以看到操作区是待标注的图片，右边是标签管理，如下图：
 
-第四步，查看标注结果和相关信息统计
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-033.png) 
+ 
+首先需要添加我们需要框选目标的标签，然后在左侧操作区域进行标注操作，每画完一个框图，选择右侧对应的标签。
 
-在数据集详情页面，可以看到当前数据集每个标签类型对应的已标注数量；右侧为相关信息统计，其中包括任务类型、标注类型、创建方式、创建时间和最近修改时间。如下图：
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-034.png) 
+ 
+第三步，查看标注统计结果
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629275352(1).png](media/3e3dd6cf19ba64822b92ee3219afa643.png)
-
-点击“查看详情”，即可查看标注的详细信息，通过上方Tab可以切换查看不同标注状态的图片。如下图：
-
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1631501610(1).png](media/b4abc52ed12265eed5ca59926bf1d4c5.png)
-
+如果所有数据都标注完成，则点击退出，返回数据详情页面，可以看到对刚才的标注有了标注结果统计。
+ 
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-035.png) 
 
 
 ---

@@ -1,10 +1,12 @@
 # 数据集收藏
 
-数据集收藏功能是便于用户管理常用的数据集，目前个人数据集及公开数据集均支持收藏。在数据集列表及数据集详情页点击“收藏”按钮即可，后续可以在“数据-\>我的收藏”中快速查看。
+数据集收藏功能是便于用户筛选常用的数据集，目前个人数据集及公开数据集均支持收藏。在数据集列表及数据集详情页点击收藏按钮即可后续再数据——我的收藏中统一查看。
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629686917(1).png](media/750de6c8b431f3969edf1b618de80c8b.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-044.png) 
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629686970(1).png](media/2e12017d8a635dd829b77155142fabdd.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-045.png) 
+
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-046.png) 
 
 
 ---

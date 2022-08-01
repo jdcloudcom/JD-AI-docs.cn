@@ -1,32 +1,32 @@
 # 图像分类标注
 
-第一步，新建数据集并完成原始数据的上传，可参考4.2.2；若在当前数据集下新建图片分类标注任务，可直接从第二步开始。
+用户在创建数据集，上传完图像数据之后，可通过项目详情页进行查看数据，同时可进行图片分类的数据标注。具体入口如下：
 
-第二步，点击“新建标注任务”，选择“新建标注类型-\>图片分类标注”，如下图：
+第一步，创建或进入分类标注
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629273635(1).png](media/21c012e4c7b5f556b221eba76e7490e6.png)
+如果是第一次使用图像分类标注，通过点击新建标注任务—》图像分类标注，进入标注页面。
 
-第三步，进入标注操作页面
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-025.png) 
+ 
+如果是基于已有的标注结果，点击“查看详细”，会基于之前的标注结果，继续标注或修改标注，同时在标注任务管理中也可以点击“标注”按钮进入到图像分类标注页面：
 
-在图片分类标注页面，操作区域上方会显示所有待分类的图片，页面下方可以通过单击“+”图标，新增分类标签。如下图：
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-026.png) 
+ 
+第二步，进入标注操作页面
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629337450(1).png](media/16164bfddd70fc2b6ddb042c4ff97851.png)
+在标注页面，操作区域上方会显示所有待分类的图片，页面下方可以通过单击“+”图标，新增分类。
 
-通过拖拽上方图片到下方具体类别中，完成图片的分类。如下图：
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-027.png) 
+ 
+通过拖拽上方图片到下方具体到类别中，完成图片到分类的过程。
 
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629337543(1).png](media/9f838c453936e97408c318952c6a3516.png)
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-028.png) 
+ 
+第三步，查看标注统计结果
 
+如果所有数据都标注完成，则点击退出，返回数据详情页面，可以看到对刚才的标注有了标注结果统计。
 
-第四步，查看标注结果和相关信息统计
-
-在数据集详情页面，可以看到当前数据集每个类型对应的数量；右侧为相关信息统计，其中包括任务类型、标注类型、创建方式、创建时间和最近修改时间，如下图：
-
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629338306(1).png](media/673dd62d1a96fb0bea1446ad8296f351.png)
-
-点击“查看详情”，进入图片分类的详细信息页面。如下图：
-
-![C:\\Users\\WANGQI\~1\\AppData\\Local\\Temp\\1629338358(1).png](media/5a8a90ad26e167634c60e6a1aab62425.png)
-
+![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-029.png) 
 
 
 ---

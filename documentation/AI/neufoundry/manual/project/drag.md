@@ -65,7 +65,6 @@
  
 3)	目标检测
 
-![目标检测](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-037.png)
  
 4)	机器学习（聚类）
 

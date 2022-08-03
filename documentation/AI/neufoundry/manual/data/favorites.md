@@ -6,7 +6,6 @@
 
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-045.png) 
 
-![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-046.png) 
 
 
 ---

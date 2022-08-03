@@ -22,7 +22,6 @@
  
 对该条文本数据分类完成之后，通过点击下一页，进行下一条数据标注，系统会自动保存刚才的标注内容。
 
-![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-023.png) 
  
 第三步，查看标注统计结果
 

@@ -2,9 +2,9 @@
 
 进到公开项目列表，点击收藏按钮
 
-![收藏1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-069.png "收藏1")
+![收藏1](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-069.png)
 
-![收藏2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-070.png "收藏2")
+![收藏2](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-070.png)
 
 已收藏的项目会出现在我的收藏（项目）中
 

@@ -18,7 +18,7 @@
 
 ![](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-045.png)
 
-6、	在训练过程中，可以对训练的过程进行跟踪，点击任务状态的帮助图标![](../images/project/pro-047.png "") ，即可查看当前任务的全流程。
+6、	在训练过程中，可以对训练的过程进行跟踪，点击任务状态的帮助图标![](../images/project/pro-047.png) ，即可查看当前任务的全流程。
     
 ![](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/project/pro-048.png)
      

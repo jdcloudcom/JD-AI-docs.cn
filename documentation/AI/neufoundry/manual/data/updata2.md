@@ -94,6 +94,7 @@
     ...
 ]
 ```
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-012.png) 
 
 3)	文字检测：文字检测的标注格式文件是以json格式为主，标注文件的文件名称必须按照wzjc-result.json来命名，文件内容遵循的层级关系主要包括如下：
@@ -120,6 +121,7 @@
     }
 ]
 ```
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-013.png) 
 
 4)	文字识别：文字识别的标注格式文件是以json格式为主，标注文件的文件名称必须按照wzsb-result.json来命名，文件内容遵循的层级关系主要包括如下：
@@ -159,6 +161,7 @@
     }
 ]
 ``` 
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-014.png) 
 
 5)	端到端文字识别：端到端文字识别的标注格式文件是以json格式为主，标注文件的文件名称必须按照dddwzsb-result.json来命名，文件内容遵循的层级关系主要包括如下：
@@ -192,6 +195,7 @@
     }
 ]
 ```
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-015.png) 
 
 - C.	音频
@@ -226,6 +230,7 @@
     }
 ]
 ``` 
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-016.png) 
 
 2)	语音分类：语音分类的标注格式文件是以json格式为主，标注文件的文件名称必须按照yyfl-result.json来命名，文件内容遵循的层级关系主要包括如下：
@@ -246,6 +251,7 @@
     ]
 }
 ```
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-017.png) 
 
 - D.	视频
@@ -268,6 +274,7 @@
     ]
 }
 ``` 
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-018.png) 
 
 2)	视频分段：语音分类的标注格式文件是以json格式为主，标注文件的文件名称必须按照spfd-result.json来命名，文件内容遵循的层级关系主要包括如下：
@@ -341,6 +348,7 @@
     }
 ]
 ``` 
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-019.png) 
 
 

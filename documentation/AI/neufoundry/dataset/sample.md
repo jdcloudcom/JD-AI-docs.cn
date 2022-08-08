@@ -35,13 +35,13 @@
 
 1.文本分类样例文件下载：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/txtClassify.zip)
 
-2.图像分类样例文件：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/imageClassify.zip)
+2.图像分类样例文件下载：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/imageClassify.zip)
 
-3.目标检测样例文件：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/objectDetect.zip)
+3.目标检测样例文件下载：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/objectDetect.zip)
 
-4.语音转文本样例文件：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/audio2TxtLabeled.zip)
+4.语音转文本样例文件下载：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/audio2TxtLabeled.zip)
 
-5.视频分类样例文件：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/videoClassifyLabeled.zip)
+5.视频分类样例文件下载：[样例链接](../../../../image/AI-and-Machine-Learning/NeuFoundry/images/data/videoClassifyLabeled.zip)
 
 
 ---

@@ -53,7 +53,7 @@ items:
           - name:  我的收藏（数据集）
             href:  manual/data/favorites.md
           - name: 数据集要求及上传样例
-            href:  dataset/sample.md 
+            href:  dataset/sample1.md 
       - name:  项目 
         items:
           - name:  算法任务式
@@ -65,9 +65,9 @@ items:
           - name:  自动化
             href:  manual/project/auto.md
           - name:  公开项目
-            href:  manual/project/public.md
+            href:  manual/project/public1.md
           - name:  我的收藏（项目）
-            href:  manual/project/favorites.md   
+            href:  manual/project/favorites1.md   
       - name: 模型仓库
         items:
           - name:  模型列表

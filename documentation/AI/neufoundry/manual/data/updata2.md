@@ -61,6 +61,7 @@
     ]
 }
 ```
+
 ![](../../../../../image/AI-and-Machine-Learning/NeuFoundry/images/dataset/ds-011.png) 
 
 2)	目标检测：目标检测的标注格式文件是以json格式为主，标注文件的文件名称必须按照txkt-result.json来命名，文件内容遵循的层级关系主要包括如下：
